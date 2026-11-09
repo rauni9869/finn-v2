@@ -1,0 +1,35 @@
+{
+ "key": "bio:v3:Titan Company Ltd:Retirement:Noel N. Tata retires as Non-Executive Director and Vice-Chairman effective 12 November 2026.",
+ "saved_at": "2026-11-09T09:44:40+00:00",
+ "value": {
+  "people": [
+   {
+    "name": "Noel N. Tata",
+    "role": "Non‑Executive Director and Vice‑Chairman",
+    "change": "Retirement (effective 12 November 2026)",
+    "known": true,
+    "background": [
+     "Chairman of Tata Trusts and vice‑chairman of Titan Company",
+     "Previously managing director of Tata International and director of Titan Industries",
+     "Bachelor’s degree from University of Sussex and International Executive Programme at INSEAD"
+    ]
+   }
+  ],
+  "why_it_matters": "His departure creates a vacancy on Titan’s board, prompting a new appointment that could affect board composition and governance continuity.",
+  "sources": [
+   {
+    "title": "www.moneycontrol.com",
+    "url": "https://www.moneycontrol.com/news/business/noel-tata-to-retire-as-titan-vice-chairman-and-director-on-november-12-14071862.html"
+   },
+   {
+    "title": "en.wikipedia.org",
+    "url": "https://en.wikipedia.org/wiki/Noel_Tata"
+   },
+   {
+    "title": "www.titancompany.in",
+    "url": "https://www.titancompany.in/investors/corporate-announcements"
+   }
+  ],
+  "searched": true
+ }
+}

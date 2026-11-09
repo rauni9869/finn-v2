@@ -100,6 +100,13 @@ def management_brief(company: str, title: str, summary: str, quick: bool = False
     prompt = f"Company: {company}\nFiling: {title}\nSummary: {summary}"
 
     def ask():
+        # Groq first: fast, with web search, and it leaves Gemini's small daily limit for the transcript analysis
+        if llm.groq_available():
+            try:
+                brief, sources = llm.groq_search_json(system + " Search the web first.", prompt, PeopleBrief, 45 if quick else 90)
+                return {**brief.model_dump(), "sources": sources, "searched": True}
+            except llm.LLMUnavailable:
+                pass
         try:
             brief, sources = llm.generate_grounded_json(REASONING_MODELS, system + " Search the web first.", prompt, PeopleBrief, quick)
             return {**brief.model_dump(), "sources": sources, "searched": True}

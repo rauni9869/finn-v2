@@ -24,7 +24,7 @@ A mobile-first investing agent for Indian equities, built for the ENAM Holdings 
 | Exchange filings | BSE announcements, as listed on screener.in | The latest 5 per company, with screener.in's one-line summaries. NSE and BSE block automated access to their own APIs, so FINN does not scrape them directly. |
 | Financials, ratios, document links | screener.in | Standardised from company filings. Covers any listed company. |
 | Earnings call transcripts | BSE PDFs linked from screener.in | Read page by page for the AI analysis. |
-| People background | Gemini with Google Search | Only for management-change filings, with source links. |
+| People background | Groq (`gpt-oss`) with web search | Only for management-change filings, with links to the pages it read. |
 
 ## How the AI is used
 
@@ -32,7 +32,7 @@ A mobile-first investing agent for Indian equities, built for the ENAM Holdings 
 |---|---|---|
 | Filing categories | Keyword rules first; `gemini-flash-lite` only for filings the rules miss, in one batched call | Most filings are labelled by the filer, so rules are free and instant |
 | Promises vs delivery, guidance, bull vs bear | `gemini-flash` with fallbacks | Needs reasoning over long transcripts |
-| Who joined or left | `gemini-flash` with Google Search | Needs current facts, with sources |
+| Who joined or left | Groq `gpt-oss-120b` with web search, falling back to `gpt-oss-20b`, then Gemini | Needs current facts with sources, and keeps Gemini's small daily limit for the transcript analysis |
 
 Safeguards:
 - **Only primary sources:** the research model sees only the company's transcripts and reported numbers, and is told not to use outside knowledge.
@@ -48,7 +48,7 @@ You need Python 3.10+ and Node.js 18+. Keep the project outside folders synced t
 python3.12 run.py
 ```
 
-Open http://localhost:3000. The first run installs everything. To turn on the AI features, create a `.env` file in this folder with `GEMINI_API_KEY=your_key`.
+Open http://localhost:3000. The first run installs everything. To turn on the AI features, create a `.env` file in this folder with `GEMINI_API_KEY=your_key`, and optionally `GROQ_API_KEY=your_key` for faster people briefs.
 
 ## Deploy (Hugging Face Spaces)
 

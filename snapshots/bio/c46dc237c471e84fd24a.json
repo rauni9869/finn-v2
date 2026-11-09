@@ -1,0 +1,27 @@
+{
+ "key": "bio:v3:Supriya Lifescience Ltd:Change in Management:Board approved Q2 FY27 unaudited results and appointed Mangesh Vaze as COO from November 6, 2026.",
+ "saved_at": "2026-11-09T09:44:40+00:00",
+ "value": {
+  "people": [
+   {
+    "name": "Mangesh Vaze",
+    "role": "Chief Operating Officer",
+    "change": "appointed",
+    "known": true,
+    "background": [
+     "B.E. in Chemical Engineering and Executive MBA (strategy, marketing, finance)",
+     "Approximately 34 years of experience in production, process engineering, API manufacturing and operations",
+     "Previously held senior positions at Zydus Lifescience Ltd., Cipla Ltd., Mylan Laboratories Ltd., Apotex Pharmachem India Pvt Ltd, Wockhardt Ltd., Orchid Chemicals & Pharmaceuticals Ltd. and Lupin Ltd."
+    ]
+   }
+  ],
+  "why_it_matters": "The appointment of an experienced pharma operations executive as COO may strengthen Supriya Lifescience’s manufacturing and API production capabilities.",
+  "sources": [
+   {
+    "title": "www.supriyalifescience.com",
+    "url": "https://www.supriyalifescience.com/assets/pdfs/updates-announcements/board-meeting/2026-2027/Outcome-of-Board-Meeting_06-11-26.pdf"
+   }
+  ],
+  "searched": true
+ }
+}

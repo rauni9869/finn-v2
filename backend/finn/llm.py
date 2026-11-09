@@ -2,11 +2,13 @@ import json
 import logging
 import re
 import time
+
+import requests
 from typing import Callable, Dict, List, Tuple, Type, TypeVar
 
 from pydantic import BaseModel
 
-from finn.config import GEMINI_API_KEY
+from finn.config import GEMINI_API_KEY, GROQ_API_KEY, GROQ_MODELS
 
 logger = logging.getLogger(__name__)
 
@@ -124,4 +126,94 @@ def _try_models(models: List[str], prompt: str, config: dict, parse: Callable, q
                 time.sleep(4)
     if unreadable:
         raise LLMUnavailable("The AI returned an unreadable answer. Please try again.")
+    raise LLMUnavailable("The AI service is busy or its free limit was reached. Please try again in a few minutes.")
+
+
+# --- Groq: open models with built-in web search, used for people briefs -------------
+
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
+
+def groq_available() -> bool:
+    return bool(GROQ_API_KEY)
+
+
+def _groq_sources(message: dict) -> List[Dict[str, str]]:
+    """Pages the model actually opened while searching, most useful first."""
+    sources, seen = [], set()
+    for tool in message.get("executed_tools") or []:
+        if tool.get("type") != "browser.open":
+            continue
+        for result in (tool.get("search_results") or {}).get("results", []):
+            url = result.get("url", "")
+            if not url.startswith("http") or url in seen or "exa.ai/search" in url:
+                continue
+            seen.add(url)
+            title = re.sub(r"\s+-\s+viewing lines.*$", "", result.get("title") or url)
+            sources.append({"title": title[:80], "url": url})
+    return sources[:5]
+
+
+def groq_search_json(system: str, prompt: str, schema: Type[T], timeout_s: int = 60) -> Tuple[T, List[Dict[str, str]]]:
+    """Asks a Groq open model to search the web and answer as JSON. Raises LLMUnavailable."""
+    if not GROQ_API_KEY:
+        raise LLMUnavailable("Groq is not configured.")
+    # Each Groq model has its own daily token allowance, so the smaller one is the fallback
+    for model in GROQ_MODELS:
+        try:
+            return _groq_search_once(model, system, prompt, schema, timeout_s)
+        except LLMUnavailable as e:
+            last = e
+            if "unreadable" in str(e):
+                raise
+    raise last
+
+
+def _strip_citations(value):
+    """Removes the model's inline citation markers, e.g. 【1†L98-L100】."""
+    if isinstance(value, str):
+        return re.sub(r"\s*【[^】]*】", "", value).strip()
+    if isinstance(value, list):
+        return [_strip_citations(v) for v in value]
+    if isinstance(value, dict):
+        return {k: _strip_citations(v) for k, v in value.items()}
+    return value
+
+
+def _groq_search_once(model: str, system: str, prompt: str, schema: Type[T], timeout_s: int) -> Tuple[T, List[Dict[str, str]]]:
+    body = {
+        "model": model,
+        "tools": [{"type": "browser_search"}],
+        "temperature": 0,
+        "messages": [
+            {"role": "system", "content": system + "\n\nReply with only a JSON object matching this schema:\n" + json.dumps(schema.model_json_schema())},
+            {"role": "user", "content": prompt},
+        ],
+    }
+    for attempt in range(2):
+        try:
+            resp = requests.post(GROQ_URL, headers={"Authorization": f"Bearer {GROQ_API_KEY}"}, json=body, timeout=timeout_s)
+        except requests.RequestException as e:
+            logger.warning(f"Groq request failed: {e}")
+            break
+        if resp.status_code == 429 and "per day" in resp.text:
+            logger.warning(f"Groq {model} daily token allowance is used up")
+            break
+        if resp.status_code == 429 and attempt == 0:
+            # The free tier also counts tokens per minute; wait out that window once
+            wait = min(float(resp.headers.get("retry-after", "20")), 30)
+            logger.info(f"Groq per-minute limit reached, waiting {wait:.0f}s")
+            time.sleep(wait)
+            continue
+        if resp.status_code != 200:
+            logger.warning(f"Groq {model} returned {resp.status_code}: {resp.text[:160]}")
+            break
+        message = resp.json()["choices"][0]["message"]
+        text = (message.get("content") or "").strip()
+        match = re.search(r"\{.*\}", text, re.S)
+        try:
+            parsed = json.loads(match.group(0) if match else text)
+            return schema.model_validate(_strip_citations(parsed)), _groq_sources(message)
+        except ValueError as e:
+            logger.warning(f"Unreadable Groq output: {e}")
+            raise LLMUnavailable("The AI returned an unreadable answer. Please try again.")
     raise LLMUnavailable("The AI service is busy or its free limit was reached. Please try again in a few minutes.")

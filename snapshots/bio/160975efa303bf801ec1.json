@@ -1,0 +1,33 @@
+{
+ "key": "bio:v3:Trent Ltd:Retirement:Noel N. Tata retires as Chairman on 11 Nov 2026; Bahram Vakil appointed Chairman, with two director appointments.",
+ "saved_at": "2026-11-09T09:44:40+00:00",
+ "value": {
+  "people": [
+   {
+    "name": "Noel N. Tata",
+    "role": "Chairman",
+    "change": "Retiring",
+    "known": true,
+    "background": [
+     "Vice Chairman of Tata Steel and Titan Company",
+     "Former Managing Director of Trent Ltd (1999-2010)",
+     "Trustee of Sir Dorabji Tata Trust and Sir Ratan Tata Trust"
+    ]
+   },
+   {
+    "name": "Bahram Vakil",
+    "role": "Chairman",
+    "change": "Joining",
+    "known": true,
+    "background": [
+     "Founding Partner of AZB & Partners",
+     "LLM from Columbia Law School",
+     "Expert in infrastructure, project finance, and bankruptcy law"
+    ]
+   }
+  ],
+  "why_it_matters": "This transition marks the end of Noel Tata's long-standing leadership at Trent and introduces a legal and corporate governance expert as Chairman to oversee the company's next growth phase.",
+  "sources": [],
+  "searched": false
+ }
+}

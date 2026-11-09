@@ -12,6 +12,9 @@ SNAPSHOT_DIR = Path(os.getenv("FINN_SNAPSHOT_DIR", ROOT_DIR / "snapshots"))
 FRONTEND_DIST = ROOT_DIR / "frontend" / "dist"
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+# Groq runs open models fast, with web search; its free tier allows far more requests per day than Gemini's
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+GROQ_MODELS = os.getenv("FINN_GROQ_MODELS", "openai/gpt-oss-120b,openai/gpt-oss-20b").split(",")
 # Cheap models for short bulk jobs, stronger ones where reasoning matters. Later entries are fallbacks.
 FAST_MODELS = os.getenv("FINN_FAST_MODELS", "gemini-flash-lite-latest,gemini-3.1-flash-lite").split(",")
 REASONING_MODELS = os.getenv("FINN_REASONING_MODELS", "gemini-3-flash-preview,gemini-flash-latest").split(",")
