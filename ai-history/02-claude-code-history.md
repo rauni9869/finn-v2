@@ -1,21 +1,6 @@
 # FINN: Claude Code session history
 
-The 9 November 2026 conversation with **Claude Code** (Anthropic), in which I built FINN version 2 from scratch on live data and deployed it.
-
-This covers 9 November only. An earlier part of the same session, on 1 November, reviewed and patched version 1; it is not included here.
-
-**This is an edited selection.** It keeps the messages about the product and engineering decisions, and leaves out routine ones: terminal commands I ran, status checks, account and key setup, free-tier quota troubleshooting, and messages about preparing this history. The complete session is in the raw export.
-
-- **Converted from:** the session's own export, which is attached to my submission as the complete record.
-- **Kept:** the selected messages, in order, each with every visible reply from the assistant.
-- **Left out:** raw tool output (command results, file contents, screenshots) and the assistant's hidden reasoning. Each reply notes which tools were used.
-- **Redacted:** my email address and my computer's home folder path.
-
-- **Messages from me:** 21 of 53 that day
-- **First message:** 09 Nov 2026, 06:11 UTC
-- **Last message:** 09 Nov 2026, 10:28 UTC
-
-See [`BUILD_HISTORY.md`](../BUILD_HISTORY.md) for a summary.
+Selected messages from my 9 November 2026 session with **Claude Code** (Anthropic), in which I rebuilt FINN as version 2. The complete session is in the attached export.
 
 ---
 

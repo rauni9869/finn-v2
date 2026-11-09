@@ -7,7 +7,7 @@ Please find my submission for the AI Engineer Build Challenge.
 
 - **Live prototype (opens on a phone):** https://finn-v2.onrender.com
 - **Repository:** https://github.com/rauni9869/finn-v2
-- **AI build history:** summarised in [BUILD_HISTORY.md](https://github.com/rauni9869/finn-v2/blob/main/BUILD_HISTORY.md). It covers how I broke the problem down, prompted, course-corrected and decided what to accept. Both full conversations are in the repo's [`ai-history`](https://github.com/rauni9869/finn-v2/tree/main/ai-history) folder: Antigravity for version 1, and Claude Code for the review and version 2. The raw Claude Code session export is also attached.
+- **AI build history:** summarised in [BUILD_HISTORY.md](https://github.com/rauni9869/finn-v2/blob/main/BUILD_HISTORY.md). It covers how I broke the problem down, prompted, course-corrected and decided what to accept. The repo's [`ai-history`](https://github.com/rauni9869/finn-v2/tree/main/ai-history) folder has the Antigravity conversation for version 1 and selected messages from the Claude Code session for version 2. The complete Claude Code session is attached.
 
 The site is on free hosting, so the first visit after a quiet spell can take up to a minute.
 
