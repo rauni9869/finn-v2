@@ -1,7 +1,5 @@
 # FINN: Claude Code session history
 
-Selected messages from my 9 November 2026 session with **Claude Code** (Anthropic), in which I rebuilt FINN as version 2. The complete session is in the attached export.
-
 ---
 
 ## 1. Me
@@ -781,3 +779,5 @@ It's addressed to `assessment@enam.com` with the subject the brief asks for, and
 - **Check the old site:** the earlier version's Render service (`finn-c73z.onrender.com`) is still live. If you don't want reviewers to find it, you can suspend it in Render, but it's harmless to leave.
 
 ---
+
+*Selected messages from my 9 November 2026 session with Claude Code (Anthropic), in which I rebuilt FINN as version 2. The complete session is in the attached export.*
