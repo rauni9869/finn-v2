@@ -49,13 +49,21 @@ export const App: React.FC = () => {
     <>
       <div className="topbar">
         <div className="topbar-inner">
-          <a href="#/today" className="brand" style={{ textDecoration: 'none' }} aria-label="FINN home">
+          <div className="row" style={{ gap: 10, flexWrap: 'nowrap' }}>
+            {/* Lives in the sticky header so it stays reachable anywhere on a long page */}
+            {route.view !== 'today' && (
+              <button className="back-btn" onClick={goBack} aria-label={canGoBack ? 'Go back' : 'Go to Today'} title={canGoBack ? 'Back' : 'Today'}>
+                ←
+              </button>
+            )}
+          <a href="#/today" className={`brand ${route.view !== 'today' ? 'brand-compact' : ''}`} style={{ textDecoration: 'none' }} aria-label="FINN home">
             <span className="brand-grid" aria-hidden="true">
               <span style={{ background: 'var(--accent)' }} /><span style={{ background: 'var(--series-2)' }} />
               <span style={{ background: 'var(--down)' }} /><span style={{ background: 'var(--up)' }} />
             </span>
-            FINN
+            <span className="brand-name">FINN</span>
           </a>
+          </div>
           <nav className="pills" aria-label="Sections">
             {TABS.map(([v, label]) => (
               <a key={v} href={`#/${v}${v === 'research' && route.query ? `/${encodeURIComponent(route.query)}` : ''}`} className={`pill ${route.view === v ? 'active' : ''}`} style={{ textDecoration: 'none' }} aria-current={route.view === v ? 'page' : undefined}>{label}</a>
@@ -64,11 +72,6 @@ export const App: React.FC = () => {
         </div>
       </div>
       <main className="page">
-        {route.view !== 'today' && (
-          <button className="back label" onClick={goBack} aria-label={canGoBack ? 'Go back' : 'Go to Today'}>
-            ← {canGoBack ? 'Back' : 'Today'}
-          </button>
-        )}
         {route.view === 'today' && <Today onResearch={research} />}
         {route.view === 'research' && <Research query={route.query} onSearch={research} />}
         {route.view === 'portfolio' && <Portfolio onResearch={research} />}
