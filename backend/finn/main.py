@@ -28,7 +28,7 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], all
 
 @app.get("/api/health")
 def health():
-    return {"status": "ok", "ai": llm.is_available(), "prewarm": prewarm.status()}
+    return {"status": "ok", "ai": llm.is_available(), "groq": llm.groq_available(), "prewarm": prewarm.status()}
 
 
 @app.get("/api/portfolio")
