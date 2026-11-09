@@ -1,3 +1,14 @@
+---
+title: FINN
+emoji: 📈
+colorFrom: yellow
+colorTo: gray
+sdk: docker
+app_port: 7860
+pinned: false
+short_description: Push digest and AI research for Indian equities
+---
+
 # FINN v2
 
 A mobile-first investing agent for Indian equities, built for the ENAM Holdings AI Engineer Build Challenge. Everything runs on live data: there are no hand-written samples.
