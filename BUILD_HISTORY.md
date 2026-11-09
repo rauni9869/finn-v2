@@ -6,7 +6,7 @@ How I built FINN with AI coding agents, from first plan to the live app. This pa
 |---|---|---|
 | **Agent** | Antigravity (Google DeepMind) | Claude Code (Anthropic) |
 | **Dates** | 31 Oct – 3 Nov 2026 | 1 Nov and 9 Nov 2026 |
-| **Record** | [`ai-history/01-antigravity-v1-history.md`](ai-history/01-antigravity-v1-history.md) | Full session export, attached separately |
+| **Record** | [`ai-history/01-antigravity-v1-history.md`](ai-history/01-antigravity-v1-history.md) | [`ai-history/02-claude-code-history.md`](ai-history/02-claude-code-history.md), plus the raw session export attached to my submission |
 | **Outcome** | A broad prototype, mostly on hand-written sample data | A rebuild on live data, deployed at https://finn-v2.onrender.com |
 
 **How I worked with the agents:** I set the direction, reviewed and tested what they produced, and made the product and trade-off decisions. The agents planned, investigated and wrote most of the code.
