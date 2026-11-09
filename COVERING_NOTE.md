@@ -9,7 +9,7 @@ Please find my submission for the AI Engineer Build Challenge.
 
 - **Live prototype (works on a phone):** https://finn-v2.onrender.com
 - **Repository:** https://github.com/rauni9869/finn-v2
-- **AI build history:** [ADD LINKS OR ATTACHMENTS]
+- **AI build history:** BUILD_LOG.md in the repository summarises it; the full Claude Code conversation is attached
 
 The site is on free hosting, so the first visit after a quiet spell can take up to a minute to load.
 
