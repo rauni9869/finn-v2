@@ -13,6 +13,36 @@ How I built FINN with AI coding agents, from first plan to the live app. This pa
 
 ---
 
+## How I work with AI tools
+
+### Breaking problems down
+- **Plan, then audit, then build.** In version 1, I had the brief turned into a plan, had that plan reviewed against both PDFs, and only then started building. The review caught gaps and forced an MVP-versus-stretch split.
+- **Check the riskiest assumption first.** In version 2, before any code, I had the data sources tested: NSE, BSE, screener.in and Gemini. Two exchange feeds turned out to be blocked, which changed the design before anything was built on them.
+- **Build in layers and check each one.** Data sources, then the Push logic, then Pull, then the frontend, with a live smoke test after each layer.
+
+### Prompting
+I give the problem and the outcome I want, often from what I see as a user, rather than a solution. Real prompts from the sessions:
+- *"act as a senior SWE"* and *"verify the plan"*: setting the role and asking for critique, not agreement.
+- *"is this site working fine according to the things asked in this file"*: checking against the brief, not against the agent's own summary.
+- *"I wish to see a UI which doesn't seem as if it is made by an AI agent"*: a quality bar, not a spec.
+- *"it is not good for users, they won't wait for so much time"*: a user problem, which led to background preparation and a 20-second analysis.
+- *"in any particular page if it is very large the back button will only appear when going to the top"*: a specific usability bug from using the app.
+
+### Course-correcting when the model went wrong
+- **Version 1 claimed "100% success" on sample data.** I had a second agent review every file; it found invented reports, a fixed 92% score and broken sliders.
+- **The AI-analysis build wasn't reliable live, so I rolled back.** Instead of submitting something broken, I redeployed the earlier version, then planned a clean rebuild.
+- **The agent recommended free Docker hosting on Hugging Face.** I pointed out it is paid; the agent checked, confirmed I was right, and we moved to Render.
+- **The agent wrote filler headings and introductions.** I had them removed: *"this should not be written, why are you writing this."*
+- **A fallback model gave a "100%" score from one promise.** We added a minimum of 3 checked promises before any score is shown.
+- **An AI-written bio named the wrong employer.** Briefs moved to web search with sources.
+
+### Deciding what to accept and what to reject
+- **Accepted** when the agent showed evidence: measured timings, logs showing the 20-requests-a-day limit, or a test with an empty cache and an invalid key proving the snapshots work.
+- **Rejected** claims I couldn't verify, such as "live scraping verified" with fallback numbers in the output, and options that cut quality to save cost. For example, I didn't use the weaker model for the analysis just to stay free.
+- **I didn't hand-write much code.** My "rewrites" were redirections: rejecting an output, saying what was wrong, and having it redone, then checking the result in the browser or the logs.
+
+---
+
 ## Part 1: Planning and the first version (Antigravity, 31 Oct – 1 Nov)
 
 **1. Plan first.** I asked the agent, acting as a senior engineer, to turn the two challenge PDFs into a detailed `plan.md`: architecture, an 18-stock portfolio plus 4 out-of-portfolio tickers, the 17 filing categories, both push enrichments, all 8 research dimensions, and model routing.
