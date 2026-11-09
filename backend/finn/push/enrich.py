@@ -84,7 +84,11 @@ class PeopleBrief(BaseModel):
     why_it_matters: str
 
 
-def management_brief(company: str, title: str, summary: str) -> Dict[str, Any]:
+def brief_key(company: str, title: str, summary: str) -> str:
+    return f"bio:v3:{company}:{title}:{summary}"
+
+
+def management_brief(company: str, title: str, summary: str, quick: bool = False) -> Dict[str, Any]:
     """Who is joining or leaving, with a background found by searching the web, and its sources."""
     system = (
         "You brief an equity investor on a management change at an Indian listed company. "
@@ -97,11 +101,11 @@ def management_brief(company: str, title: str, summary: str) -> Dict[str, Any]:
 
     def ask():
         try:
-            brief, sources = llm.generate_grounded_json(REASONING_MODELS, system + " Search the web first.", prompt, PeopleBrief)
+            brief, sources = llm.generate_grounded_json(REASONING_MODELS, system + " Search the web first.", prompt, PeopleBrief, quick)
             return {**brief.model_dump(), "sources": sources, "searched": True}
         except llm.LLMUnavailable:
             # Search grounding has its own, smaller free quota; fall back to the model's knowledge, labelled as such
-            brief = llm.generate_json(REASONING_MODELS, system, prompt, PeopleBrief)
+            brief = llm.generate_json(REASONING_MODELS, system, prompt, PeopleBrief, quick)
             return {**brief.model_dump(), "sources": [], "searched": False}
 
-    return cached(f"bio:v3:{company}:{title}:{summary}", 30 * 24 * 3600, ask)
+    return cached(brief_key(company, title, summary), 30 * 24 * 3600, ask)

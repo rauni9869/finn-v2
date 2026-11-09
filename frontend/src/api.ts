@@ -64,6 +64,7 @@ export interface Filing {
   category: string;
   priority: 'HIGH' | 'MEDIUM' | 'LOW';
   classified_by: string;
+  people?: PeopleBrief | null;
   results: {
     quarter: string;
     metrics: ResultsMetric[];

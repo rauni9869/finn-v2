@@ -3,7 +3,7 @@ import { api, Filing, PeopleBrief } from '../api';
 import { ago, CATEGORY_LABELS, crore, pct, tone } from '../format';
 
 export const FilingCard: React.FC<{ filing: Filing; onResearch: (ticker: string) => void }> = ({ filing, onResearch }) => {
-  const [people, setPeople] = useState<PeopleBrief | null>(null);
+  const [people, setPeople] = useState<PeopleBrief | null>(filing.people ?? null);
   const [peopleState, setPeopleState] = useState<'idle' | 'loading' | 'error'>('idle');
   const [peopleError, setPeopleError] = useState('');
 

@@ -27,6 +27,10 @@ class LLMUnavailable(Exception):
 
 
 # Less hidden reasoning before answering: several times faster, and the quote checks still guard accuracy
+QUICK_TIMEOUT_MS = 30000
+_search_blocked_until = 0.0
+_last_error_was_quota = False
+
 LOW_THINKING = {}
 if _client:
     from google.genai import types as _types
@@ -37,7 +41,7 @@ def is_available() -> bool:
     return _client is not None
 
 
-def generate_json(models: List[str], system: str, prompt: str, schema: Type[T]) -> T:
+def generate_json(models: List[str], system: str, prompt: str, schema: Type[T], quick: bool = False) -> T:
     """Asks for JSON matching schema, moving to the next model if one is busy. Raises LLMUnavailable."""
     if not _client:
         raise LLMUnavailable("AI is not configured on this server. Add GEMINI_API_KEY to enable it.")
@@ -47,13 +51,16 @@ def generate_json(models: List[str], system: str, prompt: str, schema: Type[T]) 
         "response_schema": schema,
         "temperature": 0,
     }
-    return _try_models(models, prompt, config, lambda response: schema.model_validate_json(response.text or ""))
+    return _try_models(models, prompt, config, lambda response: schema.model_validate_json(response.text or ""), quick)
 
 
-def generate_grounded_json(models: List[str], system: str, prompt: str, schema: Type[T]) -> Tuple[T, List[Dict[str, str]]]:
+def generate_grounded_json(models: List[str], system: str, prompt: str, schema: Type[T], quick: bool = False) -> Tuple[T, List[Dict[str, str]]]:
     """Like generate_json, but the model searches Google first. Returns the result and its web sources."""
+    global _search_blocked_until
     if not _client:
         raise LLMUnavailable("AI is not configured on this server. Add GEMINI_API_KEY to enable it.")
+    if time.time() < _search_blocked_until:
+        raise LLMUnavailable("Web search is over its free limit for now.")
     from google.genai import types
 
     # Search grounding can't be combined with a response schema, so the schema goes in the prompt
@@ -74,14 +81,26 @@ def generate_grounded_json(models: List[str], system: str, prompt: str, schema: 
                 sources.append({"title": chunk.web.title or chunk.web.uri, "url": chunk.web.uri})
         return result, sources
 
-    return _try_models(models, prompt, config, parse)
+    try:
+        return _try_models(models, prompt, config, parse, quick)
+    except LLMUnavailable:
+        # Search has its own small free quota; stop trying it for a while once it is refused
+        if _last_error_was_quota:
+            _search_blocked_until = time.time() + 3600
+        raise
 
 
-def _try_models(models: List[str], prompt: str, config: dict, parse: Callable):
+def _try_models(models: List[str], prompt: str, config: dict, parse: Callable, quick: bool = False):
+    """Tries each model in turn. Quick mode is for requests a person is waiting on: one attempt each, 30-second limit."""
+    global _last_error_was_quota
+    _last_error_was_quota = False
+    if quick:
+        config = {**config, "http_options": {"timeout": QUICK_TIMEOUT_MS}}
+        models = models[:1]
     unreadable = False
     for model in models:
         # One retry per model, since "high demand" errors are often brief
-        for attempt in range(2):
+        for attempt in range(1 if quick else 2):
             try:
                 try:
                     response = _client.models.generate_content(model=model, contents=prompt, config={**config, **LOW_THINKING})
@@ -97,8 +116,9 @@ def _try_models(models: List[str], prompt: str, config: dict, parse: Callable):
                 break
             except Exception as e:
                 logger.warning(f"{model} call failed: {e}")
+                _last_error_was_quota = "RESOURCE_EXHAUSTED" in str(e) or "429" in str(e)
                 busy = "503" in str(e) or "UNAVAILABLE" in str(e)
-                if not busy or attempt == 1:
+                if not busy or attempt == 1 or quick:
                     break
                 time.sleep(4)
     if unreadable:

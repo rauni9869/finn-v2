@@ -55,7 +55,7 @@ def filing_people(filing_id: str):
     if filing["category"] != "management_change":
         raise HTTPException(400, "Only management change filings have a people brief.")
     try:
-        return enrich.management_brief(filing["company"], filing["title"], filing["summary"])
+        return enrich.management_brief(filing["company"], filing["title"], filing["summary"], quick=True)
     except llm.LLMUnavailable as e:
         raise HTTPException(503, str(e))
 

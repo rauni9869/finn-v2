@@ -7,6 +7,7 @@ from typing import Any, Dict, List
 from finn import llm
 from finn.config import AD_HOC, PORTFOLIO
 from finn.pull import analysis
+from finn.push import digest, enrich
 from finn.sources import screener
 
 logger = logging.getLogger(__name__)
@@ -33,8 +34,25 @@ def _tickers() -> List[str]:
     return out
 
 
+def _prepare_people_briefs() -> None:
+    """People briefs first: there are only a few, and someone clicking one shouldn't have to wait."""
+    for filing in digest.all_filings():
+        if filing["category"] != "management_change" or filing.get("people"):
+            continue
+        try:
+            enrich.management_brief(filing["company"], filing["title"], filing["summary"])
+            logger.info(f"Prepared people brief for {filing['ticker']}: {filing['title']}")
+        except Exception as e:
+            logger.warning(f"People brief failed for {filing['ticker']}: {e}")
+        time.sleep(5)
+
+
 def _run_pass() -> bool:
     """One pass over every company. Returns False if the AI service refused, so the caller backs off."""
+    try:
+        _prepare_people_briefs()
+    except Exception as e:
+        logger.warning(f"People briefs skipped: {e}")
     tickers = _tickers()
     with _lock:
         _status.update(running=True, done=[], skipped=[], failed=[], total=len(tickers), current=None)

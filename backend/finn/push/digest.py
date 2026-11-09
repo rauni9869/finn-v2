@@ -8,7 +8,8 @@ from typing import Any, Dict, List, Optional
 
 from finn.config import PORTFOLIO
 from finn.push import classify
-from finn.push.enrich import results_scorecard
+from finn.cache import cache_get
+from finn.push.enrich import brief_key, results_scorecard
 from finn.sources import screener
 
 logger = logging.getLogger(__name__)
@@ -71,6 +72,9 @@ def all_filings() -> List[Dict[str, Any]]:
             filing["classified_by"] = "default"
 
     for filing in filings:
+        # Prepared people briefs ship with the filing, so the card can show them straight away
+        if filing["category"] == "management_change":
+            filing["people"] = cache_get(brief_key(filing["company"], filing["title"], filing["summary"]))
         if filing["category"] == "results" and filing["priority"] == "HIGH":
             filing["results"] = results_scorecard(companies[filing["ticker"]], filing["published_at"])
 
