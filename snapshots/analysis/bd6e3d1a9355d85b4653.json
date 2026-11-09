@@ -1,0 +1,139 @@
+{
+ "key": "analysis:v2:DEEPAKNTR:https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5dfbdab4-d040-4a99-b694-bbe26f015f14.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "DEEPAKNTR",
+  "summary": "Management has demonstrated strong credibility by successfully navigating extreme raw material volatility and geopolitical disruptions to deliver record financial performance. They have consistently met or exceeded capacity utilization targets while maintaining a disciplined approach to large-scale capital allocation.",
+  "coverage": "Feb 2026 to Nov 2026",
+  "transcripts_read": [
+   {
+    "label": "Feb 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fe2e422-45bb-44a8-a6e2-c9677c942a8d.pdf",
+    "pages": 21
+   },
+   {
+    "label": "May 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=589629dc-be30-42d5-8ed4-bb605071a9bc.pdf",
+    "pages": 15
+   },
+   {
+    "label": "Aug 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=830edde9-d00b-4243-98bd-a0e7c77d716b.pdf",
+    "pages": 21
+   },
+   {
+    "label": "Nov 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5dfbdab4-d040-4a99-b694-bbe26f015f14.pdf",
+    "pages": 21
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "Feb 2026",
+    "page": 4,
+    "quote": "The MIBK/ MIBC project is progressing well and is targeted for commissioning within this quarter.",
+    "promised": "Commission MIBK/MIBC project by the end of Q4 FY26.",
+    "actual_delivered": "The project faced technical delays due to the use of a divided wall column and was pushed to Q2 FY27, as confirmed in the May 2026 (page 4) and August 2026 (page 5) transcripts.",
+    "verdict": "DELAYED",
+    "reasoning": "The project missed the initial Q4 FY26 target due to engineering hiccups but was successfully commissioned in Q2 FY27.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fe2e422-45bb-44a8-a6e2-c9677c942a8d.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 9,
+    "quote": "This quarter and next quarter will be the first period where we would have pretty much 100% consumption of nitric acid.",
+    "promised": "Achieve 100% captive consumption of nitric acid starting Q4 FY26.",
+    "actual_delivered": "Utilization was only 45% in Q4 FY26 due to technical issues (May 2026, page 7), but reached 100% by Q1 FY27 (August 2026, page 5).",
+    "verdict": "PARTIAL",
+    "reasoning": "The target was missed in the promised quarter (Q4 FY26) but fully achieved one quarter later.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fe2e422-45bb-44a8-a6e2-c9677c942a8d.pdf"
+   },
+   {
+    "transcript": "May 2026",
+    "page": 8,
+    "quote": "I can say that our Q1 looks on track for numbers, which are better than Q4, whether it is on standalone or on a consolidated basis.",
+    "promised": "Q1 FY27 financial performance to exceed Q4 FY26.",
+    "actual_delivered": "Reported Sales grew from Rs 2,120 crore in Mar 2026 to Rs 2,578 crore in Jun 2026, and Net Profit rose from Rs 220 crore to Rs 345 crore.",
+    "verdict": "DELIVERED",
+    "reasoning": "Reported numbers for Jun 2026 show a significant sequential increase in both revenue and profit.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=589629dc-be30-42d5-8ed4-bb605071a9bc.pdf"
+   },
+   {
+    "transcript": "Aug 2026",
+    "page": 5,
+    "quote": "MIBK as well as MIBC will be commissioned along with acetophenone in August itself, and the rest of them will be commissioned within Q2.",
+    "promised": "Commission MIBK, MIBC, and acetophenone in August 2026 (Q2 FY27).",
+    "actual_delivered": "Management confirmed the commissioning of MIBK, MIBC, and acetophenone in the Oct 30, 2026 call (Nov 2026, page 4 and 12).",
+    "verdict": "DELIVERED",
+    "reasoning": "The projects were commissioned within the promised Q2 FY27 window.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=830edde9-d00b-4243-98bd-a0e7c77d716b.pdf"
+   }
+  ],
+  "delivered": 2,
+  "credibility_pct": 50,
+  "guidance": [
+   {
+    "topic": "Advanced Intermediates Margin",
+    "target": "14% to 15% EBIT margin for FY28.",
+    "transcript": "Nov 2026",
+    "page": 11,
+    "quote": "We are estimating that in the next year, with all the assets that have been commissioned running at steady-state, we should be targeting something along the lines of about 14% to 15% EBIT.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5dfbdab4-d040-4a99-b694-bbe26f015f14.pdf"
+   },
+   {
+    "topic": "Advanced Intermediates EBIT",
+    "target": "Absolute EBIT of Rs 400 crore to Rs 420 crore in FY28.",
+    "transcript": "Nov 2026",
+    "page": 11,
+    "quote": "If I was to look at next year, it would be roughly in the range of about INR 400 crore, INR 420 crore.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5dfbdab4-d040-4a99-b694-bbe26f015f14.pdf"
+   },
+   {
+    "topic": "Polycarbonate Commissioning",
+    "target": "Polycarbonate resin plant to be commissioned in FY29.",
+    "transcript": "Nov 2026",
+    "page": 10,
+    "quote": "We continue to remain in line with our FY29 number. However, the integrated asset from propylene to polycarbonate resin is in line with the feedstock availability plan.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5dfbdab4-d040-4a99-b694-bbe26f015f14.pdf"
+   },
+   {
+    "topic": "Phenol Market Supply",
+    "target": "Add 80 to 100 KTPA of phenol to the merchant market from new capacity.",
+    "transcript": "Nov 2026",
+    "page": 18,
+    "quote": "Generally, we should be in a position to be able to participate up to about 100 KTPA from our new capacity with regards to phenol in the market also.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5dfbdab4-d040-4a99-b694-bbe26f015f14.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "Phenolics segment is delivering record profitability, with H1 FY27 EBIT already surpassing previous full-year records.",
+    "transcript": "Nov 2026",
+    "page": 6,
+    "quote": "In just the first 6 months of this financial year, our EBIT of INR 933 crore has surpassed previous highest annual EBIT of INR 867 crore, which was registered in FY22.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5dfbdab4-d040-4a99-b694-bbe26f015f14.pdf"
+   },
+   {
+    "point": "The company is successfully diversifying into high-value downstream products like MIBK and MIBC with best-in-class efficiency.",
+    "transcript": "Aug 2026",
+    "page": 8,
+    "quote": "MIBK as well as MIBC in their pre-commissioning runs have already demonstrated meeting the stringent consumption norms that we had designed for.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=830edde9-d00b-4243-98bd-a0e7c77d716b.pdf"
+   }
+  ],
+  "bear": [
+   {
+    "point": "The Advanced Intermediates segment faces persistent pricing pressure from aggressive Chinese dumping and global oversupply.",
+    "transcript": "Feb 2026",
+    "page": 4,
+    "quote": "EBIT for the segment stood at INR 15 crore, reflecting this continued pricing pressure arising from aggressive Chinese dumping and global oversupply.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fe2e422-45bb-44a8-a6e2-c9677c942a8d.pdf"
+   }
+  ],
+  "dropped_unverified": 5,
+  "models_tried": [
+   "gemini-3-flash-preview",
+   "gemini-flash-latest"
+  ]
+ }
+}

@@ -1,0 +1,163 @@
+{
+ "key": "analysis:v2:ETERNAL:https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "ETERNAL",
+  "summary": "Management has demonstrated high credibility by consistently delivering on aggressive growth and profitability targets in the quick commerce segment. They maintain a disciplined, first-principles approach to capital allocation, prioritizing long-term return on capital over short-term market share gains through unsustainable discounting.",
+  "coverage": "Jan 2026 to Oct 2026",
+  "transcripts_read": [
+   {
+    "label": "Jan 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf",
+    "pages": 18
+   },
+   {
+    "label": "May 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf",
+    "pages": 18
+   },
+   {
+    "label": "Jul 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf",
+    "pages": 17
+   },
+   {
+    "label": "Oct 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf",
+    "pages": 16
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "Jan 2026",
+    "page": 6,
+    "quote": "we don't expect net working capital to be beyond those 18 days that we had shared earlier",
+    "promised": "Maintain net working capital within 18 days.",
+    "actual_delivered": "Net working capital was reduced to 14 days as of July 2026 and further guided to 12 days in the Jul 2026 transcript (page 12).",
+    "verdict": "DELIVERED",
+    "reasoning": "The company successfully kept working capital well below the 18-day threshold.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf"
+   },
+   {
+    "transcript": "Jan 2026",
+    "page": 8,
+    "quote": "we now expect the losses to come down sequentially from here towards breakeven in the next four to six quarters.",
+    "promised": "Going-out (District) business to reach breakeven within 4-6 quarters from Jan 2026.",
+    "actual_delivered": "Reported numbers show Net Profit turned positive in Dec 2025 (Rs 102 cr) and remained positive through Sep 2026 (Rs 125 cr).",
+    "verdict": "DELIVERED",
+    "reasoning": "The consolidated entity reached and maintained profitability ahead of the implied timeline for the specific segment's contribution.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf"
+   },
+   {
+    "transcript": "Jan 2026",
+    "page": 11,
+    "quote": "the full benefit should accrue in the next six to nine months, and the benefit will not be more than 1%.",
+    "promised": "Full 1% margin benefit from the inventory model transition to accrue by Oct 2026.",
+    "actual_delivered": "The Oct 2026 transcript (page 5) confirms the transition is at a steady state with 90-95% 1P inventory.",
+    "verdict": "DELIVERED",
+    "reasoning": "The transition to the inventory model was completed within the promised timeframe.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf"
+   },
+   {
+    "transcript": "May 2026",
+    "page": 4,
+    "quote": "We're on track on our guidance for March of 3,000 stores. We remain firmly on track.",
+    "promised": "Reach 3,000 dark stores by March 2027.",
+    "actual_delivered": "The Oct 2026 transcript (page 12) notes the store count grew 50% YoY, and management accelerated targets to 4,000+ stores for FY28.",
+    "verdict": "DELIVERED",
+    "reasoning": "Management confirmed they are on track and subsequently increased the target due to high confidence.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
+   },
+   {
+    "transcript": "May 2026",
+    "page": 6,
+    "quote": "As we move to 5-6% margin that we are saying we will get to at some point",
+    "promised": "Achieve 5-6% Adjusted EBITDA margin in quick commerce.",
+    "actual_delivered": "The Jul 2026 transcript (page 3) upgraded this long-term guidance to 6% based on increased efficiency.",
+    "verdict": "DELIVERED",
+    "reasoning": "Management met the initial range and felt confident enough to raise the target to the upper bound.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
+   }
+  ],
+  "delivered": 5,
+  "credibility_pct": 100,
+  "guidance": [
+   {
+    "topic": "Profitability",
+    "target": "$1 billion Adjusted EBITDA by FY29",
+    "transcript": "Oct 2026",
+    "page": 7,
+    "quote": "We maintain that guidance as of now.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
+   },
+   {
+    "topic": "Margins",
+    "target": "Food delivery margins to remain flattish over the next 1 to 2 years",
+    "transcript": "Oct 2026",
+    "page": 3,
+    "quote": "broadly, over the next 1 or 2 years, we expect the margins to remain flattish.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
+   },
+   {
+    "topic": "Expansion",
+    "target": "2,000 stores by end of FY27 and 4,000 stores by end of FY28",
+    "transcript": "Oct 2026",
+    "page": 12,
+    "quote": "Incrementally, you're talking about nearly doubling dark stores over the next 6 to 7 quarters.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
+   },
+   {
+    "topic": "Quick Commerce Throughput",
+    "target": "Steady state NOV per day per store of INR 11 lakh",
+    "transcript": "Oct 2026",
+    "page": 12,
+    "quote": "We gave guidance last time that in steady state it could get to about INR 11 lakh per day per store.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "Quick commerce margins are expanding despite high competitive intensity, with long-term targets raised to 6%.",
+    "transcript": "Jul 2026",
+    "page": 3,
+    "quote": "we now have higher visibility on margins and we think at this point we're likely to end at the higher end of the range",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+   },
+   {
+    "point": "Successful expansion into Tier 2 and Tier 3 cities showing robust economics and high payback.",
+    "transcript": "Oct 2026",
+    "page": 5,
+    "quote": "What we have seen so far is that the economics are pretty robust. Paybacks are extremely good in these markets.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
+   }
+  ],
+  "bear": [
+   {
+    "point": "Competitive intensity in quick commerce is at an all-time high, characterized by aggressive customer subsidies.",
+    "transcript": "Jul 2026",
+    "page": 4,
+    "quote": "First quarter, so far, was the peak of competitive intensity that we have seen till date",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+   },
+   {
+    "point": "Capex per store has increased significantly to INR 2.5 crore due to supply chain automation and larger store sizes.",
+    "transcript": "Jul 2026",
+    "page": 12,
+    "quote": "you have given INR 2.5 crore versus INR 1 crore earlier. Is that INR 1 crore comparable?",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+   },
+   {
+    "point": "New entrants in the food delivery space are creating unexpected competitive pressure in a mature category.",
+    "transcript": "Oct 2026",
+    "page": 7,
+    "quote": "It doesn't make sense to us at all either and we are equally surprised.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
+   }
+  ],
+  "dropped_unverified": 3,
+  "models_tried": [
+   "gemini-3-flash-preview",
+   "gemini-flash-latest"
+  ]
+ }
+}

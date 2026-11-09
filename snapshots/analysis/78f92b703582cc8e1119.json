@@ -1,0 +1,180 @@
+{
+ "key": "analysis:v2:DIXON:https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=995a3a71-4a1e-4c1f-a29a-6c6747e4ca10.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "DIXON",
+  "summary": "Management demonstrates strong execution in scaling new verticals like IT hardware and telecom, though they frequently face delays in commissioning large-scale facilities. Their credibility is supported by maintaining market share in a declining mobile market and successfully navigating complex component price cycles.",
+  "coverage": "Feb 2026 to Nov 2026",
+  "transcripts_read": [
+   {
+    "label": "Feb 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf",
+    "pages": 21
+   },
+   {
+    "label": "May 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf",
+    "pages": 21
+   },
+   {
+    "label": "Aug 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf",
+    "pages": 21
+   },
+   {
+    "label": "Nov 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=995a3a71-4a1e-4c1f-a29a-6c6747e4ca10.pdf",
+    "pages": 24
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "Feb 2026",
+    "page": 6,
+    "quote": "Our expansion into new category of semi-automatic washing machines in 16 kg and 18 kg capacity is completed and mass production to start in March '26",
+    "promised": "Mass production of 16kg and 18kg semi-automatic washing machines to start in March 2026.",
+    "actual_delivered": "Management confirmed in May 2026 (page 6) that they have started manufacturing semi-auto washing machines in 16 and 18 kg capacity.",
+    "verdict": "DELIVERED",
+    "reasoning": "The launch was promised for March 2026 and confirmed as active in the May 2026 transcript.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 7,
+    "quote": "scale up our capacity by operationalizing a new upcoming Chennai facility by end of Q4 of the current fiscal.",
+    "promised": "Operationalize a new Chennai facility for AC PCBs by the end of Q4 FY26 (March 2026).",
+    "actual_delivered": "In May 2026 (page 7), management reported they added a new facility in Chennai strategically located closer to their anchor customer.",
+    "verdict": "DELIVERED",
+    "reasoning": "The facility was promised for the end of the fiscal year and reported as added in the subsequent earnings call.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 4,
+    "quote": "Construction of a 1 million square feet facility in Noida with higher capacities for our anchor customers is expected to be completed by Q1 of financial year '26-'27",
+    "promised": "Complete construction of the 1 million sq ft Noida facility by Q1 FY27 with mass production starting in Q2 FY27.",
+    "actual_delivered": "By August 2026 (page 4), management stated the facility was almost completed and operations were now expected to commence from Q3 FY27.",
+    "verdict": "DELAYED",
+    "reasoning": "The commencement of operations was pushed from Q2 to Q3 FY27.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 6,
+    "quote": "Our new Tirupati facility for front-loading washing machine is ready and mass production to start by Q2 financial year '26-'27 with annual capacity of 300,000 units.",
+    "promised": "Start mass production of front-loading washing machines at the Tirupati facility by Q2 FY27.",
+    "actual_delivered": "In November 2026 (page 7), management noted they were still progressing towards the launch of these machines in Q3 of the current fiscal.",
+    "verdict": "DELAYED",
+    "reasoning": "The launch was delayed from the original Q2 FY27 target to Q3 FY27.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 7,
+    "quote": "mass production of SSD and memory modules is planned to begin in Q2 of '26-'27, which will deepen the level of manufacturing",
+    "promised": "Begin mass production of SSD and memory modules in Q2 FY27.",
+    "actual_delivered": "In November 2026 (page 11), management reported that lines for SSD had been set up and trials were operationalized, implying a Q3 start for production.",
+    "verdict": "DELAYED",
+    "reasoning": "The transition from planning to operational trials occurred in Q3, missing the Q2 mass production target.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 4,
+    "quote": "Our new 4,000 square feet facility for 74:26 launch at JV for manufacturing of smartphones and other electronic devices is expected to start operations by Q2 of '26-'27.",
+    "promised": "Start operations at the new Longcheer JV facility by Q2 FY27.",
+    "actual_delivered": "In November 2026 (page 5), management stated the Longcheer JV is expected to commence operation within Q3 of the current financial year.",
+    "verdict": "DELAYED",
+    "reasoning": "The operational start date was moved from Q2 to Q3 FY27.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
+   }
+  ],
+  "delivered": 2,
+  "credibility_pct": 33,
+  "guidance": [
+   {
+    "topic": "Mobile Volume",
+    "target": "33-34 million units (excluding Vivo) for FY27.",
+    "transcript": "Nov 2026",
+    "page": 9,
+    "quote": "we feel we should be somewhere around 33-34 million. And in this, I am not including the Vivo quantities.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=995a3a71-4a1e-4c1f-a29a-6c6747e4ca10.pdf"
+   },
+   {
+    "topic": "IT Hardware Revenue",
+    "target": "INR 15,000 crore to INR 20,000 crore business in the next couple of years.",
+    "transcript": "Nov 2026",
+    "page": 11,
+    "quote": "next couple of years, this is going to be almost INR 15,000 crore to INR 20,000 crore business for us.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=995a3a71-4a1e-4c1f-a29a-6c6747e4ca10.pdf"
+   },
+   {
+    "topic": "CAPEX",
+    "target": "INR 1,200 crores for the full fiscal year.",
+    "transcript": "Nov 2026",
+    "page": 22,
+    "quote": "we should close the year with INR 1,200 crores.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=995a3a71-4a1e-4c1f-a29a-6c6747e4ca10.pdf"
+   },
+   {
+    "topic": "Display Trials",
+    "target": "Automotive/notebook trials in Q3, mobile display trials in Q4.",
+    "transcript": "Nov 2026",
+    "page": 5,
+    "quote": "The first phase covering automotive and notebook displays is expected to commence trials in Q3, followed by mobile display trials in Q4",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=995a3a71-4a1e-4c1f-a29a-6c6747e4ca10.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "The IT Hardware segment is experiencing rapid growth and transitioning to higher incentive categories.",
+    "transcript": "Nov 2026",
+    "page": 6,
+    "quote": "IT hardware vertical is witnessing a very significant growth driven by increasing volumes, deepening customer engagement, leading to a strong order pipeline",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=995a3a71-4a1e-4c1f-a29a-6c6747e4ca10.pdf"
+   },
+   {
+    "point": "Strategic backward integration into components like displays and camera modules is expected to expand margins.",
+    "transcript": "Nov 2026",
+    "page": 4,
+    "quote": "foray into display modules, camera modules, mechanicals, and other critical components represent a significant step in Dixon's evolution",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=995a3a71-4a1e-4c1f-a29a-6c6747e4ca10.pdf"
+   },
+   {
+    "point": "Dixon is maintaining stable mobile volumes despite a significant double-digit decline in the broader Indian smartphone market.",
+    "transcript": "Nov 2026",
+    "page": 5,
+    "quote": "Dixon has demonstrated resilience by sustaining its smartphone manufacturing volume at broadly stable year-on-year levels.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=995a3a71-4a1e-4c1f-a29a-6c6747e4ca10.pdf"
+   }
+  ],
+  "bear": [
+   {
+    "point": "Margins are under pressure due to the expiration of PLI incentives and high global component costs.",
+    "transcript": "Nov 2026",
+    "page": 3,
+    "quote": "Margins during the quarter were impacted on expiration of mobile PLI 1 scheme along with elevated global memory prices",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=995a3a71-4a1e-4c1f-a29a-6c6747e4ca10.pdf"
+   },
+   {
+    "point": "Strategic inventory building for memory chips has led to a significant working capital burn.",
+    "transcript": "Nov 2026",
+    "page": 17,
+    "quote": "in H1, we have seen a cash burn of INR 280 crores. I think it is primarily because of memory",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=995a3a71-4a1e-4c1f-a29a-6c6747e4ca10.pdf"
+   },
+   {
+    "point": "The Home Appliances segment is facing temporary profitability hits from volatile raw material and freight costs.",
+    "transcript": "Nov 2026",
+    "page": 4,
+    "quote": "Profitability in washing machine and refrigerator was temporarily affected by fluctuations in polymer prices, rising freight costs and transit time",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=995a3a71-4a1e-4c1f-a29a-6c6747e4ca10.pdf"
+   }
+  ],
+  "dropped_unverified": 1,
+  "models_tried": [
+   "gemini-flash-latest",
+   "gemini-3-flash-preview"
+  ]
+ }
+}

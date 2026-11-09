@@ -1,0 +1,160 @@
+{
+ "key": "analysis:v2:HDFCBANK:https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "HDFCBANK",
+  "summary": "Management's credibility is under significant pressure following the abrupt resignation of the Chairman citing ethical concerns, which the board could not specifically explain. While they have delivered on retail disbursement and MSME growth targets, the lack of transparency regarding leadership friction and the subsequent early retirement of the Deputy MD creates uncertainty.",
+  "coverage": "Mar 2026 to Oct 2026",
+  "transcripts_read": [
+   {
+    "label": "Mar 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56739132-e21e-4503-aeb6-85f4f53c1244.pdf",
+    "pages": 14
+   },
+   {
+    "label": "Apr 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf",
+    "pages": 16
+   },
+   {
+    "label": "Jul 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=509cc499-6cb1-4d9f-8de9-9c7de6c70eef.pdf",
+    "pages": 17
+   },
+   {
+    "label": "Oct 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf",
+    "pages": 17
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "Apr 2026",
+    "page": 12,
+    "quote": "we have grown our business banking, which is mainly representative of our MSME, we've grown at about 20% year-on-year, and that will continue to also be in that range of 18% to 20%, 21%",
+    "promised": "Maintain MSME (business banking) growth in the range of 18% to 21%.",
+    "actual_delivered": "Business banking grew 28% year-on-year as reported in the Oct 2026 transcript (page 9).",
+    "verdict": "DELIVERED",
+    "reasoning": "The bank exceeded the upper end of its growth guidance for the business banking segment.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
+   },
+   {
+    "transcript": "Apr 2026",
+    "page": 9,
+    "quote": "our endeavor for LCR is to be between 110% and 120%. We are somewhere in the middle.",
+    "promised": "Maintain Liquidity Coverage Ratio (LCR) between 110% and 120%.",
+    "actual_delivered": "LCR was reported at 113% in the Oct 2026 transcript (page 16).",
+    "verdict": "DELIVERED",
+    "reasoning": "The ratio remained within the promised 110-120% range.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
+   },
+   {
+    "transcript": "Jul 2026",
+    "page": 3,
+    "quote": "Advances, as we had envisioned a while ago, I think we are on the verge of pressing the pedal.",
+    "promised": "Accelerate advances growth (pressing the pedal).",
+    "actual_delivered": "Total AUM growth reached 15.3% year-on-year in Sep 2026, up from 12% in Mar 2026 (Oct 2026 transcript, page 3).",
+    "verdict": "DELIVERED",
+    "reasoning": "The bank showed a clear acceleration in AUM growth from 12% to over 15%.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=509cc499-6cb1-4d9f-8de9-9c7de6c70eef.pdf"
+   },
+   {
+    "transcript": "Jul 2026",
+    "page": 9,
+    "quote": "the endeavor and our vision is to reach to somewhere near the pre-merger levels or just around the time of the merger, which was around 38.",
+    "promised": "Improve CASA ratio toward pre-merger levels of approximately 38%.",
+    "actual_delivered": "CASA ratio was reported at 34% in the Jul 2026 transcript (page 11).",
+    "verdict": "MISSED",
+    "reasoning": "The CASA ratio remained significantly below the 38% target level.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=509cc499-6cb1-4d9f-8de9-9c7de6c70eef.pdf"
+   }
+  ],
+  "delivered": 3,
+  "credibility_pct": 75,
+  "guidance": [
+   {
+    "topic": "Net Interest Margin (NIM)",
+    "target": "Upward trajectory from the next quarter onwards.",
+    "transcript": "Oct 2026",
+    "page": 10,
+    "quote": "The trajectory will be upward from the next quarter onwards.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+   },
+   {
+    "topic": "Liquidity Coverage Ratio (LCR)",
+    "target": "Operate between 110% and 120%.",
+    "transcript": "Oct 2026",
+    "page": 16,
+    "quote": "Yes, we would like to operate between 110 and 120, which we have told you over last few years",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+   },
+   {
+    "topic": "Profit Growth",
+    "target": "At or above balance sheet growth in the longer term.",
+    "transcript": "Jul 2026",
+    "page": 11,
+    "quote": "We do think that in the longer term that the profit growth should be at or above the balance sheet growth.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=509cc499-6cb1-4d9f-8de9-9c7de6c70eef.pdf"
+   },
+   {
+    "topic": "Retail Asset Mix",
+    "target": "Targeting approximately 60% retail mix to mirror economic consumption.",
+    "transcript": "Jul 2026",
+    "page": 8,
+    "quote": "we always have thought that India's consumption component of the GDP is at about 60% and that's where we want to be",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=509cc499-6cb1-4d9f-8de9-9c7de6c70eef.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "Strong momentum in retail disbursements and MSME growth.",
+    "transcript": "Oct 2026",
+    "page": 3,
+    "quote": "The pace of retail disbursements is accelerating and has crossed Rs 90,000 crores during Q2 FY27 as against Rs 76,000 crores in Q1",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+   },
+   {
+    "point": "Significant operational efficiency gains through digital adoption and AI.",
+    "transcript": "Oct 2026",
+    "page": 4,
+    "quote": "The turnaround times on product deliveries have come down anyway between 10 % and 15% in a short span of time",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+   },
+   {
+    "point": "Pristine asset quality with declining Gross NPA levels.",
+    "transcript": "Oct 2026",
+    "page": 4,
+    "quote": "Our asset quality remains pristine, with GNPA at 1.11%, 13 basis points lower than year-on-year.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+   }
+  ],
+  "bear": [
+   {
+    "point": "Sudden resignation of the Chairman citing ethical and value-system conflicts.",
+    "transcript": "Mar 2026",
+    "page": 8,
+    "quote": "It could be my value systems etcetera which are different, but he didn't say anything on regulatory aspects of the bank.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56739132-e21e-4503-aeb6-85f4f53c1244.pdf"
+   },
+   {
+    "point": "Net Interest Margins (NIM) have faced consistent downward pressure.",
+    "transcript": "numbers",
+    "page": null,
+    "quote": "",
+    "url": null
+   },
+   {
+    "point": "Unexpected early retirement of the Deputy Managing Director shortly after a term extension.",
+    "transcript": "Oct 2026",
+    "page": 17,
+    "quote": "our dear colleague, Kaizad, has requested for an early retirement by end of December.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+   }
+  ],
+  "dropped_unverified": 0,
+  "models_tried": [
+   "gemini-3-flash-preview",
+   "gemini-flash-latest"
+  ]
+ }
+}

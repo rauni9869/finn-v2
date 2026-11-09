@@ -1,0 +1,137 @@
+{
+ "key": "analysis:v2:SWIGGY:https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2744a099-bb7d-4563-91e9-42034f60c527.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "SWIGGY",
+  "summary": "Management has demonstrated credibility by delivering on their promise to reach contribution breakeven in Quick Commerce within the specified timeframe. However, their shifting strategy on store expansion and the widening execution gap compared to their primary competitor raise questions about their long-term competitive positioning.",
+  "coverage": "Feb 2026 to Oct 2026",
+  "transcripts_read": [
+   {
+    "label": "Feb 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2ff6453-d700-4105-a340-11d2049fd1bb.pdf",
+    "pages": 20
+   },
+   {
+    "label": "May 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=abc6f071-83e8-41dd-a36f-f893610eed81.pdf",
+    "pages": 18
+   },
+   {
+    "label": "Aug 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bf8ce7c-4ba4-4d6f-b3be-e9c9cae0cc4d.pdf",
+    "pages": 16
+   },
+   {
+    "label": "Oct 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2744a099-bb7d-4563-91e9-42034f60c527.pdf",
+    "pages": 16
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "Feb 2026",
+    "page": 4,
+    "quote": "The guidance remains at 18%-20%. I think the momentum is definitely there in terms of growth",
+    "promised": "Maintain Food Delivery GOV growth guidance of 18-20%.",
+    "actual_delivered": "Delivered. Reported sales grew from Rs 5,561 crore in Sep 2025 to Rs 7,571 crore in Sep 2026, a growth of approximately 36%.",
+    "verdict": "DELIVERED",
+    "reasoning": "The company has consistently met or exceeded the 18-20% growth target in subsequent quarters as per reported sales numbers.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2ff6453-d700-4105-a340-11d2049fd1bb.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 7,
+    "quote": "we'll be at contribution margin zero in the quarter of AMJ’26.",
+    "promised": "Reach contribution margin breakeven in Quick Commerce by the April-June 2026 quarter.",
+    "actual_delivered": "Management confirmed in the Aug 2026 transcript (page 4) that they closed the June 2026 quarter at -0.2% contribution margin.",
+    "verdict": "DELIVERED",
+    "reasoning": "The company effectively reached the zero mark as promised by the first quarter of FY27.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2ff6453-d700-4105-a340-11d2049fd1bb.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 4,
+    "quote": "When we hit the majority mark, which should as we had said in the past, it will be an eventuality, we do expect to convert into an IOCC structure.",
+    "promised": "Convert to an IOCC structure once domestic shareholding hits the majority mark.",
+    "actual_delivered": "As of the Feb 2026 call, domestic shareholding was at 47%, and no further update on hitting the majority mark was provided in later transcripts.",
+    "verdict": "PARTIAL",
+    "reasoning": "The company is tracking towards the goal but has not yet reached the majority domestic shareholding required for the conversion.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2ff6453-d700-4105-a340-11d2049fd1bb.pdf"
+   }
+  ],
+  "delivered": 2,
+  "credibility_pct": 67,
+  "guidance": [
+   {
+    "topic": "Food Delivery Growth",
+    "target": "18-20% stand-alone YoY growth.",
+    "transcript": "Oct 2026",
+    "page": 6,
+    "quote": "we see us maintaining the 18-20% stand-alone guidance on Swiggy.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2744a099-bb7d-4563-91e9-42034f60c527.pdf"
+   },
+   {
+    "topic": "Food Delivery EBITDA Margin",
+    "target": "Steady state 5% of Gross Order Value (GOV).",
+    "transcript": "Oct 2026",
+    "page": 9,
+    "quote": "5% of GOV trajectory is an outcome which is what we have stated.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2744a099-bb7d-4563-91e9-42034f60c527.pdf"
+   },
+   {
+    "topic": "Quick Commerce Contribution Margin",
+    "target": "Remain in the range of 0 to -100 bps with sequential improvement.",
+    "transcript": "Oct 2026",
+    "page": 7,
+    "quote": "contribution margin to remain in the range of 0 to -100 bps with sequential improvement there on.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2744a099-bb7d-4563-91e9-42034f60c527.pdf"
+   },
+   {
+    "topic": "Adjusted EBITDA Improvement",
+    "target": "100 basis points improvement in the current quarter (Q3 FY27).",
+    "transcript": "Oct 2026",
+    "page": 7,
+    "quote": "what we have guided is for 100 basis points improvement in Adjusted EBITDA in the current quarter.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2744a099-bb7d-4563-91e9-42034f60c527.pdf"
+   },
+   {
+    "topic": "Quick Commerce Sequential Growth",
+    "target": "Double-digit growth on a sequential basis.",
+    "transcript": "Oct 2026",
+    "page": 7,
+    "quote": "our guidance for the current quarter is also to be able to deliver double-digit growth on a sequential basis.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2744a099-bb7d-4563-91e9-42034f60c527.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "Strong momentum in Food Delivery with growth exceeding initial guidance.",
+    "transcript": "Feb 2026",
+    "page": 4,
+    "quote": "The guidance remains at 18%-20%. I think the momentum is definitely there in terms of growth",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2ff6453-d700-4105-a340-11d2049fd1bb.pdf"
+   },
+   {
+    "point": "Differentiated assortment strategy is driving higher customer retention in Quick Commerce.",
+    "transcript": "Oct 2026",
+    "page": 12,
+    "quote": "Nearly 20% of our orders today are on differentiated assortment. This gives us higher retention.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2744a099-bb7d-4563-91e9-42034f60c527.pdf"
+   }
+  ],
+  "bear": [
+   {
+    "point": "The company continues to report significant quarterly net losses.",
+    "transcript": "numbers",
+    "page": null,
+    "quote": "",
+    "url": null
+   }
+  ],
+  "dropped_unverified": 4,
+  "models_tried": [
+   "gemini-flash-latest",
+   "gemini-3-flash-preview"
+  ]
+ }
+}

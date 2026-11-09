@@ -65,6 +65,7 @@ The `Dockerfile` builds the frontend and serves everything from FastAPI on port 
 - **Pre-run:** on startup, and every 6 hours, FINN analyses the 18 holdings and the suggested companies in the background, one every 20 seconds. Those open instantly. `/api/health` shows progress.
 - **Low reasoning:** Gemini is asked for low hidden reasoning, which answers in seconds rather than minutes.
 - **Fallback:** a model that doesn't answer within 90 seconds is retried once, then the next model is tried.
+- **Snapshots:** finished analyses and people briefs are also saved as JSON in `snapshots/`, which is committed to the repo. After a restart or redeploy, FINN loads them instead of asking Gemini again, so only new transcripts and new companies use quota. To add results made on your machine, run `PYTHONPATH=backend .venv/bin/python scripts/export_snapshots.py` and commit `snapshots/`.
 
 ## Structure
 

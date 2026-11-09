@@ -9,7 +9,7 @@ from pydantic import BaseModel
 from pypdf import PdfReader
 
 from finn import llm
-from finn.cache import cache_get, cache_set, cached
+from finn.cache import cache_get, cache_set, cached, snapshot_forget
 from finn.config import REASONING_MODELS
 from finn.pull.research import report as research_report
 from finn.sources import screener
@@ -199,7 +199,8 @@ def analyse(query: str) -> Dict[str, Any]:
         raise AnalysisUnavailable("No earnings call transcripts are available for this company on screener.in.")
     key = _key(rep["ticker"], links)
     result = cached(key, 14 * 24 * 3600, lambda: _run(rep["ticker"], rep, links))
-    # Keep a thin result only briefly, so a later run can do better
+    # Keep a thin result only briefly, and not as a snapshot, so a later run can do better
     if len(result["promises"]) < MIN_PROMISES_FOR_SCORE:
         cache_set(key, result, 6 * 3600)
+        snapshot_forget(key)
     return result

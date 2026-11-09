@@ -1,0 +1,161 @@
+{
+ "key": "analysis:v2:ETHOSLTD:https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa941a44-b140-4aa7-818d-cbc570654d60.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "ETHOSLTD",
+  "summary": "Management has demonstrated strong credibility by delivering on store expansion targets and maintaining revenue growth despite significant external headwinds like election restrictions and extreme weather. While some short-term margin volatility exists due to forex and strategic discounting, their long-term vision for premiumization and lifestyle diversification remains consistent.",
+  "coverage": "May 2024 to May 2025",
+  "transcripts_read": [
+   {
+    "label": "May 2024",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e12ad140-5ab5-469a-979c-0cadd77a1acf.pdf",
+    "pages": 18
+   },
+   {
+    "label": "Aug 2024",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd2f77a8-0879-48a3-952d-2db1ae3ce6ef.pdf",
+    "pages": 14
+   },
+   {
+    "label": "Nov 2024",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8168a1a3-029d-4d7e-9116-08bc3995d7a2.pdf",
+    "pages": 14
+   },
+   {
+    "label": "May 2025",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa941a44-b140-4aa7-818d-cbc570654d60.pdf",
+    "pages": 20
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "May 2024",
+    "page": 4,
+    "quote": "In FY '25, we intend to add approximately 20 boutiques . We intend to keep growing our physical network",
+    "promised": "Add approximately 20 boutiques in FY25.",
+    "actual_delivered": "Successfully inaugurated 14 new boutiques in FY25 and reached a count of 73 boutiques, as reported in the May 2025 transcript (page 3).",
+    "verdict": "PARTIAL",
+    "reasoning": "The company added 14 stores, falling short of the 20-store target due to construction delays caused by GRAP IV restrictions in Delhi NCR.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e12ad140-5ab5-469a-979c-0cadd77a1acf.pdf"
+   },
+   {
+    "transcript": "May 2024",
+    "page": 5,
+    "quote": "We now plan to open a second service centre in Bengaluru, which will be operational in the second quarter of this year",
+    "promised": "Open a second service centre in Bengaluru by Q2 FY25.",
+    "actual_delivered": "The Nov 2024 transcript (page 9) confirms the second service center in South India was opening in that quarter to double capacity.",
+    "verdict": "DELAYED",
+    "reasoning": "The opening was pushed from Q2 to the following quarter.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e12ad140-5ab5-469a-979c-0cadd77a1acf.pdf"
+   },
+   {
+    "transcript": "Aug 2024",
+    "page": 4,
+    "quote": "the new boutique will become fully operational in January or February, marking our formal entry into the extremely lucrative international branded jewellery segment.",
+    "promised": "First Messika boutique to be fully operational in Jan/Feb 2025.",
+    "actual_delivered": "The May 2025 transcript (page 3) confirms the launch of the first Messika boutique occurred on 14th May 2025.",
+    "verdict": "DELAYED",
+    "reasoning": "The launch occurred in May 2025, missing the Feb 2025 target date.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd2f77a8-0879-48a3-952d-2db1ae3ce6ef.pdf"
+   },
+   {
+    "transcript": "Nov 2024",
+    "page": 11,
+    "quote": "The launch in India will be in January. On 10 th of January there will be a launch at the Swiss embassy.",
+    "promised": "Favre Leuba India launch in January 2025.",
+    "actual_delivered": "The May 2025 transcript (page 14) confirms the brand was launched and is present in about 40 or 45 locations.",
+    "verdict": "DELIVERED",
+    "reasoning": "The brand was successfully launched and distributed across the network as planned.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8168a1a3-029d-4d7e-9116-08bc3995d7a2.pdf"
+   }
+  ],
+  "delivered": 1,
+  "credibility_pct": 25,
+  "guidance": [
+   {
+    "topic": "Store Expansion",
+    "target": "Cross 100 boutiques during the current financial year (FY26).",
+    "transcript": "May 2025",
+    "page": 4,
+    "quote": "Looking ahead, we remain on track to be able to cross 100 boutiques during the current financial year.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa941a44-b140-4aa7-818d-cbc570654d60.pdf"
+   },
+   {
+    "topic": "Long-term Growth",
+    "target": "Grow revenue 10x over 10 years.",
+    "transcript": "May 2025",
+    "page": 4,
+    "quote": "I would like to reiterate our long-term vision, which was stated when we went public to grow our revenue 10x over 10 years.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa941a44-b140-4aa7-818d-cbc570654d60.pdf"
+   },
+   {
+    "topic": "Hedging",
+    "target": "Cover approximately 50% of foreign currency exposure through forward contracts.",
+    "transcript": "May 2025",
+    "page": 4,
+    "quote": "We have now implemented a prudent hedging strategy covering approximately 50% of our foreign currency exposure through forward contracts.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa941a44-b140-4aa7-818d-cbc570654d60.pdf"
+   },
+   {
+    "topic": "Lifestyle Expansion",
+    "target": "Target 8 to 10 boutiques of Messika in the next 5 years.",
+    "transcript": "Nov 2024",
+    "page": 10,
+    "quote": "we hope to open 8 to 10 boutiques more of Messika in the next 5 years.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8168a1a3-029d-4d7e-9116-08bc3995d7a2.pdf"
+   },
+   {
+    "topic": "Rimowa Growth",
+    "target": "Target an 8X to 10X increase in the Rimowa business over the next 5 years.",
+    "transcript": "Nov 2024",
+    "page": 10,
+    "quote": "In my opinion over the next 5 years, we are going to at least target an 8X to 10X increase in the business of just Rimowa itself.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8168a1a3-029d-4d7e-9116-08bc3995d7a2.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "Strong recovery in sales momentum following temporary disruptions, with record growth in specific months.",
+    "transcript": "Nov 2024",
+    "page": 4,
+    "quote": "In October we had a record month with a 47% year -on-year growth.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8168a1a3-029d-4d7e-9116-08bc3995d7a2.pdf"
+   },
+   {
+    "point": "Successful premiumization strategy evidenced by rising Average Selling Prices (ASP).",
+    "transcript": "Nov 2024",
+    "page": 4,
+    "quote": "Our ASP for H1 FY25 stood at Rs. 2,15,952 as compared to Rs 1.87 lakhs in H1 FY24.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8168a1a3-029d-4d7e-9116-08bc3995d7a2.pdf"
+   },
+   {
+    "point": "High growth in the pre-owned watch segment, which offers a competitive moat through organized certification.",
+    "transcript": "May 2025",
+    "page": 4,
+    "quote": "Our pre -owned segment also continues to demonstrate strong traction, growing at over 30% year-on-year.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa941a44-b140-4aa7-818d-cbc570654d60.pdf"
+   }
+  ],
+  "bear": [
+   {
+    "point": "Significant inventory buildup and working capital pressure due to aggressive store expansion and pre-ordering.",
+    "transcript": "May 2025",
+    "page": 4,
+    "quote": "the inventory moved from INR 440 crores on 31st March 2024 to INR593 crores as on 31st March 2025.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa941a44-b140-4aa7-818d-cbc570654d60.pdf"
+   },
+   {
+    "point": "Vulnerability to foreign exchange fluctuations, specifically the CHF-INR rate, impacting EBITDA margins.",
+    "transcript": "Nov 2024",
+    "page": 4,
+    "quote": "This movement had a notable impact on our financial results resulting in a FOREX loss of approximately Rs 4.65 crores.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8168a1a3-029d-4d7e-9116-08bc3995d7a2.pdf"
+   }
+  ],
+  "dropped_unverified": 3,
+  "models_tried": [
+   "gemini-3-flash-preview",
+   "gemini-flash-latest"
+  ]
+ }
+}

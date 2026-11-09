@@ -1,0 +1,155 @@
+{
+ "key": "analysis:v2:KAYNES:https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "KAYNES",
+  "summary": "Management's credibility has been tested by repeated revenue guidance misses and a failure to turn operating cash flow positive as promised. While they have successfully scaled the core EMS business and secured strategic OSAT approvals, the persistent working capital strain from the smart metering acquisition remains a significant point of friction with investors.",
+  "coverage": "Dec 2025 to Aug 2026",
+  "transcripts_read": [
+   {
+    "label": "Dec 2025",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d42ff5a9-4c9e-4163-ae33-ed915881baa4.pdf",
+    "pages": 22
+   },
+   {
+    "label": "Feb 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf",
+    "pages": 19
+   },
+   {
+    "label": "May 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2aa16ac-08ab-430a-819a-833f94c09dde.pdf",
+    "pages": 20
+   },
+   {
+    "label": "Aug 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf",
+    "pages": 20
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "Dec 2025",
+    "page": 9,
+    "quote": "going forward, we will make sure that before this year is over, we get rid of these receivables with appropriate financing so that it's not in our books",
+    "promised": "To clear smart meter annuity receivables (sitting in other non-current assets) from the books via discounting/financing by the end of FY26.",
+    "actual_delivered": "As of May 2026, non-current assets (including these receivables) remained at approximately INR 250 crores, with only INR 40 crores discounted by year-end (May 2026, Page 14).",
+    "verdict": "PARTIAL",
+    "reasoning": "While some discounting was initiated, the bulk of the non-current receivables remained on the balance sheet at the end of the promised period.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d42ff5a9-4c9e-4163-ae33-ed915881baa4.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 6,
+    "quote": "So typically, what we expect is about between 70 to 85 days. Last year, it was 85 days. We have not made significant improvements",
+    "promised": "To bring net working capital days down to approximately 85 days by March 2026.",
+    "actual_delivered": "Reported working capital days for FY26 stood at 122 days (May 2026, Page 5).",
+    "verdict": "MISSED",
+    "reasoning": "The actual working capital cycle of 122 days significantly exceeded the target of 85 days.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 17,
+    "quote": "our target is consolidated for the whole year, we will be operating cash positive.",
+    "promised": "To achieve positive consolidated operating cash flow (OCF) for the full year FY26.",
+    "actual_delivered": "The company reported a negative OCF of INR 600 crores for the full year FY26 (May 2026, Page 9).",
+    "verdict": "MISSED",
+    "reasoning": "The company failed to reach OCF breakeven, ending the year with a substantial cash drain.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 4,
+    "quote": "The OSAT facility at Sanand is now operational and steadily ramping up. A key area of concern for many stakeholders have been the approval of the FSA",
+    "promised": "To secure FSA approval under the ISM framework for the OSAT facility.",
+    "actual_delivered": "Management confirmed the FSA approval was in place by February 2026 (Feb 2026, Page 4).",
+    "verdict": "DELIVERED",
+    "reasoning": "The critical regulatory approval was obtained as stated.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf"
+   },
+   {
+    "transcript": "May 2026",
+    "page": 16,
+    "quote": "In terms of the metering, we will take another 2 to 3 months to complete the entire pending order of this",
+    "promised": "To complete the pending 35 lakh meter order within 2 to 3 months of May 2026.",
+    "actual_delivered": "By August 2026, metering revenue had degrown 12% YoY as management stopped supplies due to poor collections (Aug 2026, Page 6).",
+    "verdict": "DIVERGED",
+    "reasoning": "Instead of completing the order, management intentionally halted production and supplies to manage the balance sheet.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2aa16ac-08ab-430a-819a-833f94c09dde.pdf"
+   }
+  ],
+  "delivered": 1,
+  "credibility_pct": 20,
+  "guidance": [
+   {
+    "topic": "Capex",
+    "target": "INR 850 crores total (INR 300cr OSAT, INR 300cr PCB, INR 250cr EMS) for FY27.",
+    "transcript": "Aug 2026",
+    "page": 16,
+    "quote": "we will be funding for this capex for this year is about INR300 crores for OSAT, INR300 crores for PCB, and about INR250 crores for EMS business.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   {
+    "topic": "Operational Timeline",
+    "target": "OSAT Unit 2 and PCB Chennai facility to be operational by Q3 FY27.",
+    "transcript": "Aug 2026",
+    "page": 4,
+    "quote": "Both Kaynes Semicon Unit 2 and Kaynes Circuit Chennai remain on the track to be operational by quarter 3 FY27",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   {
+    "topic": "Cash Flow",
+    "target": "Consolidated operating cash flow to turn positive by the end of FY27.",
+    "transcript": "Aug 2026",
+    "page": 6,
+    "quote": "whatever the commitment that we have given to you as a leadership team, that by end of the financial year we'll turn the cash positive, we are pretty confident on that.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "The core EMS business demonstrates strong organic growth and significantly better working capital efficiency than the consolidated entity.",
+    "transcript": "May 2026",
+    "page": 5,
+    "quote": "core EMS business has demonstrated a significant improvement in the efficiency as committed earlier with the working capital days reducing from 83 days in FY '24 to 53 days in FY '26.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2aa16ac-08ab-430a-819a-833f94c09dde.pdf"
+   },
+   {
+    "point": "Kaynes has successfully secured high-profile global partnerships and customer wins in the semiconductor and automotive sectors.",
+    "transcript": "Aug 2026",
+    "page": 8,
+    "quote": "Our partnership between Mitsui and Kaynes Semicon is a major milestone of our subsidiary. I congratulate our team for entering into such a strong partnership",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   {
+    "point": "The company is successfully diversifying its revenue streams into high-margin sectors like aerospace and space technology.",
+    "transcript": "Aug 2026",
+    "page": 8,
+    "quote": "Our first 3U satellite is currently in the prototype development phase, and we expect it to be ready to launch in middle of next year",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   }
+  ],
+  "bear": [
+   {
+    "point": "The smart metering business is a major drain on cash flow, with receivables significantly outpacing collections.",
+    "transcript": "Aug 2026",
+    "page": 6,
+    "quote": "sales in our GridCrest business, which is the metering business, is about INR240 crores, whereas our collections is INR88 crores",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   {
+    "point": "Global supply chain disruptions and rising component costs are expected to pressure margins in the near term.",
+    "transcript": "Aug 2026",
+    "page": 16,
+    "quote": "This year is a difficult year, but I don't think for us whatever we have planned, we will try and meet the requirement. But it is not going to be an easy year.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   }
+  ],
+  "dropped_unverified": 3,
+  "models_tried": [
+   "gemini-3-flash-preview",
+   "gemini-flash-latest"
+  ]
+ }
+}

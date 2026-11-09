@@ -1,0 +1,168 @@
+{
+ "key": "analysis:v2:POLYCAB:https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "POLYCAB",
+  "summary": "Management has demonstrated strong credibility by consistently delivering on growth and margin targets, even amidst significant commodity price volatility and geopolitical disruptions. Their strategic execution under Project Spring has successfully translated into structural market share gains and a profitable turnaround of the FMEG segment.",
+  "coverage": "Jan 2026 to Oct 2026",
+  "transcripts_read": [
+   {
+    "label": "Jan 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf",
+    "pages": 20
+   },
+   {
+    "label": "May 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf",
+    "pages": 19
+   },
+   {
+    "label": "Jul 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf",
+    "pages": 19
+   },
+   {
+    "label": "Oct 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf",
+    "pages": 20
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "Jan 2026",
+    "page": 5,
+    "quote": "working capital cycle to be at 27 days at the end of Q3 FY26. We expect this to normalize to our long-term steady range of 50 to 55 days",
+    "promised": "Normalize working capital cycle to 50-55 days in the coming quarters.",
+    "actual_delivered": "The working capital cycle improved to 25 days in Q4 FY26 and further to 15 days in Q1 FY27, as reported in the May 2026 and July 2026 transcripts.",
+    "verdict": "DIVERGED",
+    "reasoning": "Instead of normalizing upward to the 50-55 day range, the cycle shortened significantly due to increased use of letters of credit.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf"
+   },
+   {
+    "transcript": "Jan 2026",
+    "page": 7,
+    "quote": "BharatNet scheme, which is expected to generate ₹ 4.5 billion over the next 3 years for project execution",
+    "promised": "Generate ₹4.5 billion from BharatNet project execution over three years.",
+    "actual_delivered": "Management confirmed in the July 2026 transcript (page 14) that execution is on track with ₹800-1,000 crores expected in FY27.",
+    "verdict": "DELIVERED",
+    "reasoning": "Execution has commenced and the annual revenue run-rate is consistent with the three-year target.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf"
+   },
+   {
+    "transcript": "May 2026",
+    "page": 15,
+    "quote": "EHV is very much on track. Capacity is expected to come on stream by end of this calendar year.",
+    "promised": "Commission EHV capacity by the end of the 2026 calendar year.",
+    "actual_delivered": "In the Oct 2026 transcript (page 18), management stated the EHV plant is now expected to commission in FY2028.",
+    "verdict": "DELAYED",
+    "reasoning": "The commissioning timeline was pushed from the end of the calendar year 2026 to FY2028 (starting April 2027).",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   {
+    "transcript": "May 2026",
+    "page": 6,
+    "quote": "We remain on track to execute our planned capex program of INR 60 billion to INR 80 billion over the next 5 years",
+    "promised": "Execute ₹60-80 billion capex over 5 years (Project Spring).",
+    "actual_delivered": "The company spent ₹14.8 billion in FY26 and ₹6.1 billion in H1 FY27, as reported in the Oct 2026 transcript.",
+    "verdict": "DELIVERED",
+    "reasoning": "The current spending rate is perfectly aligned with the annual guidance of ₹12-16 billion required to meet the 5-year target.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   }
+  ],
+  "delivered": 2,
+  "credibility_pct": 50,
+  "guidance": [
+   {
+    "topic": "Market Growth",
+    "target": "1.5x of market growth in Wires and Cables",
+    "transcript": "Oct 2026",
+    "page": 13,
+    "quote": "whatever the market grows, we will do 1.5x of that in cable and wires.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   },
+   {
+    "topic": "FMEG Growth",
+    "target": "1.5x to 2x of industry growth rate",
+    "transcript": "Oct 2026",
+    "page": 7,
+    "quote": "Our objective continues to be growing at 1.5x to 2x of the industry growth rate while steadily enhancing profitability.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   },
+   {
+    "topic": "W&C Margins",
+    "target": "11% to 13% EBITDA margins",
+    "transcript": "Oct 2026",
+    "page": 7,
+    "quote": "we remain confident of sustaining medium- to long-term EBITDA margins within our guided range of 11% to 13%.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   },
+   {
+    "topic": "Export Contribution",
+    "target": "Greater than 10% of overall top line by FY2030",
+    "transcript": "Oct 2026",
+    "page": 16,
+    "quote": "These mix will keep changing and that's the reason why when we published our Project Spring targets, we did some simulation around it.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   },
+   {
+    "topic": "EPC Margins",
+    "target": "High single-digit range",
+    "transcript": "Oct 2026",
+    "page": 7,
+    "quote": "Over the medium- to long-term, we continue to expect sustainable margins for the EPC business to remain in the high single-digit range",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "Significant market share gains in the organized Wires and Cables sector.",
+    "transcript": "May 2026",
+    "page": 6,
+    "quote": "domestic wires and cable organized market share has now increased to 30-31% up from 18-19% in financial year 2019.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   {
+    "point": "Strong turnaround and margin expansion in the FMEG segment.",
+    "transcript": "Oct 2026",
+    "page": 7,
+    "quote": "segment also achieved a major profitability milestone, with EBIT margins crossing the double-digit mark for the first time and recording a 10.1% margin",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   },
+   {
+    "point": "Robust balance sheet with a substantial net cash position.",
+    "transcript": "Oct 2026",
+    "page": 6,
+    "quote": "Net cash stood at INR 45.2 billion as of September 30th, 2026, compared to INR 29.4 billion a year ago.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   }
+  ],
+  "bear": [
+   {
+    "point": "Geopolitical tensions in the Middle East have disrupted export momentum and trade sentiment.",
+    "transcript": "May 2026",
+    "page": 3,
+    "quote": "The demand sentiment to an extent was impacted by geopolitical developments in the Middle East",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   {
+    "point": "Volume growth in the core Wires and Cables segment has moderated to single digits.",
+    "transcript": "Oct 2026",
+    "page": 6,
+    "quote": "We delivered a volume growth of mid-to high single-digit range on top of a strong base",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   },
+   {
+    "point": "Rising commodity prices and rupee depreciation are exerting upward pressure on input costs.",
+    "transcript": "May 2026",
+    "page": 5,
+    "quote": "sharp rise in crude oil prices and depreciation of the Indian rupee, which hit a record low of INR 94.83 per USD",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   }
+  ],
+  "dropped_unverified": 2,
+  "models_tried": [
+   "gemini-3-flash-preview",
+   "gemini-flash-latest"
+  ]
+ }
+}

@@ -1,0 +1,151 @@
+{
+ "key": "analysis:v2:ZENTEC:https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50a5ff5f-7ac9-48a2-9089-50264dd507a7.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "ZENTEC",
+  "summary": "Management has demonstrated strong execution capabilities, delivering record quarterly revenues and maintaining healthy margins despite a volatile ordering environment. While they have scaled back some aggressive long-term targets, their credibility is supported by a debt-free balance sheet and a clear focus on high-margin, IP-owned technologies.",
+  "coverage": "Feb 2026 to Nov 2026",
+  "transcripts_read": [
+   {
+    "label": "Feb 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c70fa5cf-7f1e-42f6-a9d2-ef35940331c7.pdf",
+    "pages": 21
+   },
+   {
+    "label": "May 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48eebac2-93bf-420d-8b1a-57f4fbc44c32.pdf",
+    "pages": 21
+   },
+   {
+    "label": "Jul 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18f85d0f-0dc1-46fa-afab-316fab4fc70e.pdf",
+    "pages": 19
+   },
+   {
+    "label": "Nov 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50a5ff5f-7ac9-48a2-9089-50264dd507a7.pdf",
+    "pages": 21
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "Feb 2026",
+    "page": 5,
+    "quote": "assume that 50% growth in the next two years, it even though it will be about 3300 or so, but we expect about Rs.4000 Crores of execution",
+    "promised": "Execute Rs. 4,000 Crores in revenue cumulatively over FY27 and FY28.",
+    "actual_delivered": "Management reaffirmed the Rs. 4,000 Crores cumulative target for FY27-28 in the Nov 2026 call (page 7), though they noted potential order delays.",
+    "verdict": "PARTIAL",
+    "reasoning": "The target remains in place, but the company is currently in the first year of this period and has noted that order timing remains a risk.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c70fa5cf-7f1e-42f6-a9d2-ef35940331c7.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 11,
+    "quote": "ARI on a standalone basis delivers currently around 25% as a PAT. Our target is once the complete integration of ARI is done with operations, it will average closer to what Zen averages",
+    "promised": "Improve ARI's PAT margins to match Zen's levels (approx. 30%+) following integration in FY27.",
+    "actual_delivered": "In May 2026 (page 17), ARI reported a PAT margin of 30.3%, aligning with Zen's historical performance.",
+    "verdict": "DELIVERED",
+    "reasoning": "The subsidiary's margins reached the targeted 30% level as reported in the FY26 annual results.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c70fa5cf-7f1e-42f6-a9d2-ef35940331c7.pdf"
+   },
+   {
+    "transcript": "May 2026",
+    "page": 19,
+    "quote": "Next year we should have started manufacturing and supplying it.",
+    "promised": "Start manufacturing and supplying 30mm smart ammunition by FY27.",
+    "actual_delivered": "In Nov 2026 (page 15), management stated the product is still undergoing internal trials and they expect contribution by next year (FY28).",
+    "verdict": "DELAYED",
+    "reasoning": "The timeline for commercial supply has shifted from FY27 to FY28 as trials continue.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48eebac2-93bf-420d-8b1a-57f4fbc44c32.pdf"
+   }
+  ],
+  "delivered": 1,
+  "credibility_pct": 33,
+  "guidance": [
+   {
+    "topic": "Revenue",
+    "target": "Rs. 1,200 Crores to Rs. 1,300 Crores for FY27",
+    "transcript": "Nov 2026",
+    "page": 15,
+    "quote": "I think we should be able to achieve a little more than that number , b ut ye s, we are comfortable with that number very easily",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50a5ff5f-7ac9-48a2-9089-50264dd507a7.pdf"
+   },
+   {
+    "topic": "Margins",
+    "target": "Mid-30s Operational EBITDA margin for full year FY27",
+    "transcript": "Nov 2026",
+    "page": 3,
+    "quote": "We continue to guide a full-year operational EBITDA margin in the mid -30s.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50a5ff5f-7ac9-48a2-9089-50264dd507a7.pdf"
+   },
+   {
+    "topic": "Capex",
+    "target": "Rs. 150 Crores for FY28",
+    "transcript": "Nov 2026",
+    "page": 18,
+    "quote": "For next financial year, which is FY 2028, also we budgeted a similar amount of capex to be done.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50a5ff5f-7ac9-48a2-9089-50264dd507a7.pdf"
+   },
+   {
+    "topic": "Product Launch",
+    "target": "HyperStrike interceptor drone revenue starting FY28",
+    "transcript": "Nov 2026",
+    "page": 19,
+    "quote": "we expect the revenue from hyper strike to come from starting FY2028.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50a5ff5f-7ac9-48a2-9089-50264dd507a7.pdf"
+   },
+   {
+    "topic": "Order Book",
+    "target": "Targeting Rs. 2,500 Crores to Rs. 3,000 Crores by March 2027",
+    "transcript": "Nov 2026",
+    "page": 14,
+    "quote": "I think if the order book, as you said, if it is Rs.3000 Crores or something probably it should be a good ground for us to give very good numbers.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50a5ff5f-7ac9-48a2-9089-50264dd507a7.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "The company achieved record quarterly execution in Q2 FY27, nearly doubling revenue sequentially.",
+    "transcript": "Nov 2026",
+    "page": 3,
+    "quote": "Consolidated revenue from operations for Q2 FY 2027 stood at Rs.345.1 crores, a highest ever quarterly revenue",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50a5ff5f-7ac9-48a2-9089-50264dd507a7.pdf"
+   },
+   {
+    "point": "Zen maintains a strong liquidity position with nearly Rs. 1,000 Crores in cash and zero debt.",
+    "transcript": "Nov 2026",
+    "page": 4,
+    "quote": "We remain debt free with approximately Rs .968 Crores of cash and bank balances.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50a5ff5f-7ac9-48a2-9089-50264dd507a7.pdf"
+   },
+   {
+    "point": "The company owns 100% of its IP for critical systems like AESA radars and command and control software.",
+    "transcript": "Nov 2026",
+    "page": 12,
+    "quote": "Everything, all the algorithms have been developed by us and as we speak, we are trying to improve those algorithms",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50a5ff5f-7ac9-48a2-9089-50264dd507a7.pdf"
+   }
+  ],
+  "bear": [
+   {
+    "point": "Working capital has deteriorated significantly to 379 days due to back-ended revenue and high advances to suppliers.",
+    "transcript": "Nov 2026",
+    "page": 4,
+    "quote": "Our consolidated working capital cycle stood at 379 days as of September 30, 2026, compared with 255 days at the end of Q1.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50a5ff5f-7ac9-48a2-9089-50264dd507a7.pdf"
+   },
+   {
+    "point": "Operating cash flows for the first half of FY27 were negative due to the heavy working capital build-up.",
+    "transcript": "Nov 2026",
+    "page": 4,
+    "quote": "The net operating cash flows for the half year was negative, but this is a function of the working capital build I described earlier.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50a5ff5f-7ac9-48a2-9089-50264dd507a7.pdf"
+   }
+  ],
+  "dropped_unverified": 3,
+  "models_tried": [
+   "gemini-3-flash-preview",
+   "gemini-flash-latest"
+  ]
+ }
+}

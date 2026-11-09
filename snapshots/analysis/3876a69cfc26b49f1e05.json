@@ -1,0 +1,188 @@
+{
+ "key": "analysis:v2:SUPRIYA:https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b59fa84a-5cfe-486b-95bc-c0ad1bda1d2a.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "SUPRIYA",
+  "summary": "Management has demonstrated strong execution by meeting FY26 revenue and margin targets despite operational headwinds like water shortages and power policy changes. However, recent technical lapses in export logistics and delays in the contrast media launch suggest areas for improvement in internal controls and R&D timelines.",
+  "coverage": "Nov 2025 to Aug 2026",
+  "transcripts_read": [
+   {
+    "label": "Nov 2025",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea39e12f-cd9e-4ee7-8104-4c8b6a6b34ce.pdf",
+    "pages": 15
+   },
+   {
+    "label": "Feb 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c86e735-7f0f-475f-a99f-f79ab0ec8089.pdf",
+    "pages": 16
+   },
+   {
+    "label": "May 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4736b39-fb57-499b-8e41-e3e4d5d166ad.pdf",
+    "pages": 17
+   },
+   {
+    "label": "Aug 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b59fa84a-5cfe-486b-95bc-c0ad1bda1d2a.pdf",
+    "pages": 19
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "Nov 2025",
+    "page": 4,
+    "quote": "We would like to reiterate our guidance of achieving around 20% of annual revenue growth",
+    "promised": "Achieve approximately 20% annual revenue growth for FY26.",
+    "actual_delivered": "The company reported FY26 revenue of INR 828 crores, representing 18.9% year-on-year growth, as stated in the May 2026 transcript.",
+    "verdict": "DELIVERED",
+    "reasoning": "The 18.9% growth is broadly in line with the ~20% target provided by management.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea39e12f-cd9e-4ee7-8104-4c8b6a6b34ce.pdf"
+   },
+   {
+    "transcript": "Nov 2025",
+    "page": 4,
+    "quote": "EBITDA margins in the range of 33% -35%.",
+    "promised": "Maintain EBITDA margins between 33% and 35% for FY26.",
+    "actual_delivered": "EBITDA margins for FY26 were 35.5%, as reported in the May 2026 transcript.",
+    "verdict": "DELIVERED",
+    "reasoning": "The actual margin of 35.5% slightly exceeded the upper end of the guided range.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea39e12f-cd9e-4ee7-8104-4c8b6a6b34ce.pdf"
+   },
+   {
+    "transcript": "Nov 2025",
+    "page": 4,
+    "quote": "expect commercial contributions to come in from Q4 of this fiscal year.",
+    "promised": "Ambernath facility to start contributing to commercial revenues in Q4 FY26.",
+    "actual_delivered": "Management confirmed in May 2026 that Ambernath started generating small amounts of revenue in Q4 FY26.",
+    "verdict": "DELIVERED",
+    "reasoning": "The facility was capitalized and began contributing revenue as scheduled, albeit in small amounts initially.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea39e12f-cd9e-4ee7-8104-4c8b6a6b34ce.pdf"
+   },
+   {
+    "transcript": "Nov 2025",
+    "page": 4,
+    "quote": "Our journey towards INR 1,000 crore revenue by Financial Year ‘27 is well on track, supported by the healthy product pipeline, 3-4 launches planned in this year",
+    "promised": "Launch 3-4 new products in FY26, including contrast media.",
+    "actual_delivered": "While 3 products were launched, the contrast media launch was pushed to H2 FY27 to enhance product economics, per the May 2026 transcript.",
+    "verdict": "DELAYED",
+    "reasoning": "The contrast media product, a key part of the launch pipeline, was deferred to the following fiscal year.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea39e12f-cd9e-4ee7-8104-4c8b6a6b34ce.pdf"
+   },
+   {
+    "transcript": "Nov 2025",
+    "page": 6,
+    "quote": "By the end of year, we are expecting about INR 25-INR 30 crores of revenue from the DSM opportunity.",
+    "promised": "Generate INR 25-30 crores from the DSM project in FY26.",
+    "actual_delivered": "The DSM contract contributed INR 30-35 crores in FY26, according to the May 2026 transcript.",
+    "verdict": "DELIVERED",
+    "reasoning": "The actual revenue from the DSM project met and slightly exceeded the management's target.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea39e12f-cd9e-4ee7-8104-4c8b6a6b34ce.pdf"
+   },
+   {
+    "transcript": "May 2026",
+    "page": 4,
+    "quote": "scheduled our annual maintenance shutdown in August for our older blocks A&D.",
+    "promised": "Conduct a complete maintenance shutdown of Blocks A to D in August 2026.",
+    "actual_delivered": "In August 2026, management decided to undertake maintenance in a phased manner instead of a complete shutdown to avoid production impact.",
+    "verdict": "DIVERGED",
+    "reasoning": "Management changed the execution strategy from a full shutdown to a phased approach to protect production volumes.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4736b39-fb57-499b-8e41-e3e4d5d166ad.pdf"
+   }
+  ],
+  "delivered": 4,
+  "credibility_pct": 67,
+  "guidance": [
+   {
+    "topic": "Revenue",
+    "target": "INR 1,000 crores by FY27",
+    "transcript": "Aug 2026",
+    "page": 4,
+    "quote": "trajectory towards the Rs. 1,000 crores revenue by FY '27 remains firmly on track",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b59fa84a-5cfe-486b-95bc-c0ad1bda1d2a.pdf"
+   },
+   {
+    "topic": "Margins",
+    "target": "EBITDA margins in the range of 33% to 35%",
+    "transcript": "Aug 2026",
+    "page": 4,
+    "quote": "We remain confident of our guidance of EBITDA margins in the range of 33% to 35%.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b59fa84a-5cfe-486b-95bc-c0ad1bda1d2a.pdf"
+   },
+   {
+    "topic": "Capex",
+    "target": "INR 200 crores for Patalganga Phase-1",
+    "transcript": "Aug 2026",
+    "page": 5,
+    "quote": "total CapEx earmarked for this facility is around Rs. 200 crores for Phase-1.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b59fa84a-5cfe-486b-95bc-c0ad1bda1d2a.pdf"
+   },
+   {
+    "topic": "Product Launch",
+    "target": "Contrast media launch in H2 FY27",
+    "transcript": "Aug 2026",
+    "page": 4,
+    "quote": "We expect the products to be launched in H2 FY '27.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b59fa84a-5cfe-486b-95bc-c0ad1bda1d2a.pdf"
+   },
+   {
+    "topic": "Regulatory",
+    "target": "Ambernath EU audit in November 2026",
+    "transcript": "Aug 2026",
+    "page": 6,
+    "quote": "The audit is scheduled for the second half of November.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b59fa84a-5cfe-486b-95bc-c0ad1bda1d2a.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "High level of backward integration provides cost advantages and operational superiority.",
+    "transcript": "Aug 2026",
+    "page": 4,
+    "quote": "Our core strategy for backward integration continued to progress and currently we have 72% of total revenues fully integrated.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b59fa84a-5cfe-486b-95bc-c0ad1bda1d2a.pdf"
+   },
+   {
+    "point": "Successful USFDA inspection with minimal observations reinforces regulatory credibility.",
+    "transcript": "May 2026",
+    "page": 3,
+    "quote": "Our Lote facility had received the USFDA’s Establishment Inspection Report, EIR, with a Voluntary Action Indicated classification following the surprise inspection conducted in February 2026.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4736b39-fb57-499b-8e41-e3e4d5d166ad.pdf"
+   },
+   {
+    "point": "Strong growth in regulated markets, particularly Europe, driven by new product registrations.",
+    "transcript": "May 2026",
+    "page": 4,
+    "quote": "Europe delivered healthy growth with a 40% share during the year.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4736b39-fb57-499b-8e41-e3e4d5d166ad.pdf"
+   }
+  ],
+  "bear": [
+   {
+    "point": "External factors like water scarcity can significantly disrupt production and defer sales.",
+    "transcript": "Aug 2026",
+    "page": 3,
+    "quote": "water shortages led to a deferment of sales of around Rs. 35 crores.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b59fa84a-5cfe-486b-95bc-c0ad1bda1d2a.pdf"
+   },
+   {
+    "point": "Technical lapses in logistics and export authorizations have led to legal investigations and personnel issues.",
+    "transcript": "Aug 2026",
+    "page": 9,
+    "quote": "there was only a technical lapse of two days where there was a human oversight by the logistics department and that the given export authorization had expired",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b59fa84a-5cfe-486b-95bc-c0ad1bda1d2a.pdf"
+   },
+   {
+    "point": "Working capital cycle remains high due to increased inventory requirements for backward integration.",
+    "transcript": "May 2026",
+    "page": 15,
+    "quote": "We are looking at around 170 to 180 days going forward. So what is happening is as the business has grown, debtors’ days had increased",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4736b39-fb57-499b-8e41-e3e4d5d166ad.pdf"
+   }
+  ],
+  "dropped_unverified": 0,
+  "models_tried": [
+   "gemini-flash-latest",
+   "gemini-3-flash-preview"
+  ]
+ }
+}

@@ -15,6 +15,7 @@ WORKDIR /app
 COPY backend/requirements.txt backend/requirements.txt
 RUN pip install --no-cache-dir -r backend/requirements.txt
 COPY backend/ backend/
+COPY snapshots/ snapshots/
 COPY --from=frontend /build/dist frontend/dist
 RUN mkdir -p /app/.cache && chown -R finn /app
 USER finn

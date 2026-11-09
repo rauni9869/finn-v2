@@ -1,0 +1,188 @@
+{
+ "key": "analysis:v2:LT:https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "LT",
+  "summary": "Management demonstrates high credibility by consistently meeting or exceeding order inflow and revenue targets despite significant geopolitical headwinds in the Middle East. Their proactive risk management, including alternate supply chain routing and disciplined capital allocation, has maintained stable margins and healthy working capital levels.",
+  "coverage": "Oct 2025 to Jul 2026",
+  "transcripts_read": [
+   {
+    "label": "Oct 2025",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf",
+    "pages": 25
+   },
+   {
+    "label": "Jan 2026",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Transcript%20Q3FY26.pdf",
+    "pages": 19
+   },
+   {
+    "label": "May 2026",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf",
+    "pages": 28
+   },
+   {
+    "label": "Jul 2026",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf",
+    "pages": 26
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "Oct 2025",
+    "page": 9,
+    "quote": "we expect a stronger revenue visibility in the second half of the fiscal year, driven by a ramp-up in the execution. Accordingly, we maintain our full year revenue growth guidance at 15%.",
+    "promised": "Full year FY26 revenue growth of 15%.",
+    "actual_delivered": "FY26 revenue growth stood at 12% as reported in the May 2026 transcript (page 5).",
+    "verdict": "MISSED",
+    "reasoning": "The company missed its 15% target, achieving 12% due to execution delays in water projects and disruptions from the West Asia conflict.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf"
+   },
+   {
+    "transcript": "Oct 2025",
+    "page": 9,
+    "quote": "We are confident of exceeding our full year FY '26 guidance of 10% growth in group order inflows for the current year.",
+    "promised": "Exceed 10% growth in group order inflows for FY26.",
+    "actual_delivered": "Order inflows grew 30% Y-o-Y for the 9-month period (Jan 2026, page 8) and significantly surpassed guidance for the full year (May 2026, page 5).",
+    "verdict": "DELIVERED",
+    "reasoning": "The company significantly beat its 10% growth target for order inflows.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf"
+   },
+   {
+    "transcript": "Oct 2025",
+    "page": 10,
+    "quote": "we are reasonably confident to achieve our full year EBITDA margin target of 8.5%.",
+    "promised": "Full year FY26 P&M EBITDA margin of 8.5%.",
+    "actual_delivered": "The FY26 margin for the reclassified PP&M portfolio was 7.8% (May 2026, page 13).",
+    "verdict": "MISSED",
+    "reasoning": "The company failed to reach the 8.5% target, ending at 7.8% due to cost overruns in legacy projects and Q4 disruptions.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf"
+   },
+   {
+    "transcript": "Oct 2025",
+    "page": 10,
+    "quote": "Our guidance for working capital for FY '26 remains unchanged at around 12% by March 2026.",
+    "promised": "Net Working Capital to Sales ratio of 12% by March 2026.",
+    "actual_delivered": "NWC to Sales ratio improved sharply to 4.1% by March 2026 (May 2026, page 6).",
+    "verdict": "DELIVERED",
+    "reasoning": "The company significantly beat its working capital target, achieving a much lower (better) ratio than promised.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf"
+   },
+   {
+    "transcript": "Oct 2025",
+    "page": 4,
+    "quote": "we expect this transaction to get consummated by the end of the current fiscal FY '26.",
+    "promised": "Divestment of Hyderabad Metro by the end of FY26.",
+    "actual_delivered": "The estimated completion date was revised to September 30, 2026 (July 2026, page 3).",
+    "verdict": "DELAYED",
+    "reasoning": "The transaction did not close by the end of FY26 as originally promised and is now expected in Q2 FY27.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf"
+   },
+   {
+    "transcript": "Jan 2026",
+    "page": 8,
+    "quote": "The Financial Services business has achieved 98% retailization of its loan book in December 2025.",
+    "promised": "Achieve 98% retailization of the loan book by December 2025.",
+    "actual_delivered": "Retailization reached 98% in September 2025 (Oct 2025, page 9) and was maintained at 98% through March 2026 (May 2026, page 8).",
+    "verdict": "DELIVERED",
+    "reasoning": "The target was met ahead of the Lakshya 2026 schedule.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Transcript%20Q3FY26.pdf"
+   }
+  ],
+  "delivered": 3,
+  "credibility_pct": 50,
+  "guidance": [
+   {
+    "topic": "Order Inflow Growth",
+    "target": "10% to 12% growth for FY27.",
+    "transcript": "Jul 2026",
+    "page": 10,
+    "quote": "we remain confident of achieving our order inflow growth guidance of 10% to 12% band for the current year.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf"
+   },
+   {
+    "topic": "Revenue Growth",
+    "target": "10% to 12% growth for FY27.",
+    "transcript": "Jul 2026",
+    "page": 11,
+    "quote": "For now, we remain committed to our FY '27 growth guidance of 10 % to 12% revenue growth guidance.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf"
+   },
+   {
+    "topic": "EBITDA Margin",
+    "target": "Around 7.8% for the PP&M portfolio in FY27.",
+    "transcript": "Jul 2026",
+    "page": 11,
+    "quote": "we continue to target the margin of around 7.8% for FY '27 with respect to the PPM portfolio.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf"
+   },
+   {
+    "topic": "Working Capital",
+    "target": "Around 10% for FY27.",
+    "transcript": "Jul 2026",
+    "page": 11,
+    "quote": "we are maintaining our FY '27 working capital guidance of around 10%.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf"
+   },
+   {
+    "topic": "Long-term ROE",
+    "target": "16% to 17% CAGR over the Lakshya 31 period.",
+    "transcript": "May 2026",
+    "page": 13,
+    "quote": "we are targeting order inflow growth at a CAGR return of 10% to 12%, revenue growth of 12% to 15%, and a Return on Equity in the range of 16% to 17%.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "Record order book provides strong multi-year revenue visibility.",
+    "transcript": "Jul 2026",
+    "page": 5,
+    "quote": "The total order book stood at Rs. 7.79 trillion as of June ‘26, up by 27% as compared to the June 25 level.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf"
+   },
+   {
+    "point": "Significant improvement in working capital efficiency and cash generation.",
+    "transcript": "Jul 2026",
+    "page": 6,
+    "quote": "The NWC to Sales ratio improved significantly to 4.9% in June 2026 from 10.1% in June 2025.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf"
+   },
+   {
+    "point": "Successful expansion into high-technology global markets like European offshore wind.",
+    "transcript": "Jul 2026",
+    "page": 3,
+    "quote": "taking the cumulative offshore wind transmission capacity secured over the past three quarters to approximately 8 GWs, reinforcing L&T's growing presence in the Europe energy transition infrastructure.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf"
+   }
+  ],
+  "bear": [
+   {
+    "point": "Geopolitical conflict in West Asia is causing supply chain disruptions and execution delays.",
+    "transcript": "May 2026",
+    "page": 7,
+    "quote": "While pickup in Revenue was anticipated for Q4, the execution was impacted by spillover effects of the West Asia conflict.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   {
+    "point": "Legacy projects continue to drag down margins in the Energy segment.",
+    "transcript": "May 2026",
+    "page": 8,
+    "quote": "Cost overruns and closeout costs in legacy projects impacted the segment margin.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   {
+    "point": "Domestic infrastructure execution is hampered by funding and payment issues in the water segment.",
+    "transcript": "Jan 2026",
+    "page": 11,
+    "quote": "certain projects which have been funded under the central plans, some of these projects have faced headwinds in terms of fund allocation.",
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Transcript%20Q3FY26.pdf"
+   }
+  ],
+  "dropped_unverified": 0,
+  "models_tried": [
+   "gemini-3-flash-preview",
+   "gemini-flash-latest"
+  ]
+ }
+}

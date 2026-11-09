@@ -1,0 +1,145 @@
+{
+ "key": "analysis:v2:TCS:https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "TCS",
+  "summary": "Management displays high operational discipline and transparency, consistently meeting its commitments on wage adjustments, talent scaling, and specific sector turnarounds. While maintaining an ambitious long-term margin aspiration of 26% to 28%, leadership candidly communicates near-term margin constraints stemming from strategic investments and subcontractor costs.",
+  "coverage": "Apr 2026 to Oct 2026",
+  "transcripts_read": [
+   {
+    "label": "Apr 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07ae2d32-1050-4e80-96ff-eb2d98378d4e.pdf",
+    "pages": 35
+   },
+   {
+    "label": "Jul 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27523cab-de62-4f78-939a-6d9853bbd060.pdf",
+    "pages": 25
+   },
+   {
+    "label": "Oct 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf",
+    "pages": 29
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "Apr 2026",
+    "page": 30,
+    "quote": "you should expect a similar impact on what we have seen in the past annual increment cycle, which had been in the range of 150 to 200 basis points.",
+    "promised": "Wage increment impact on Q1 FY27 operating margins guided to be between 150 and 200 basis points.",
+    "actual_delivered": "In Q1 FY27, annual increments impacted operating margins by 170 basis points (Jul 2026 transcript, page 5).",
+    "verdict": "DELIVERED",
+    "reasoning": "The actual margin headwind of 170 bps fell precisely within management's expected range of 150 to 200 bps.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07ae2d32-1050-4e80-96ff-eb2d98378d4e.pdf"
+   },
+   {
+    "transcript": "Apr 2026",
+    "page": 4,
+    "quote": "We have announced annual salary increments for our eligible associates across all grades, effective April 1.",
+    "promised": "Annual salary increments across all eligible grades to be executed effective April 1.",
+    "actual_delivered": "Completed salary increments globally across all associates in Q1 FY27 (Jul 2026 transcript, page 8).",
+    "verdict": "DELIVERED",
+    "reasoning": "Management followed through and completed the global annual salary rollouts during Q1.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07ae2d32-1050-4e80-96ff-eb2d98378d4e.pdf"
+   },
+   {
+    "transcript": "Jul 2026",
+    "page": 17,
+    "quote": "Manufacturing, we believe will turn around in Q2, life sciences could turn around in Q2, tech services will continue to grow.",
+    "promised": "Manufacturing and Life Sciences to stage a turnaround in Q2 FY27, while Tech Services continues to grow.",
+    "actual_delivered": "In Q2 FY27, Manufacturing grew 3.1% QoQ CC, Tech and Services grew 3.1% QoQ CC, and Life Sciences grew 0.3% QoQ CC after declining in Q1 (Oct 2026 transcript, pages 10-11).",
+    "verdict": "DELIVERED",
+    "reasoning": "All three verticals executed in accordance with management's turnaround and growth expectations.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27523cab-de62-4f78-939a-6d9853bbd060.pdf"
+   }
+  ],
+  "delivered": 3,
+  "credibility_pct": 100,
+  "guidance": [
+   {
+    "topic": "M&A Margin Headwind",
+    "target": "Dilution of about 50 basis points from the MHP acquisition depending on closing and integration timing.",
+    "transcript": "Oct 2026",
+    "page": 16,
+    "quote": "The acquisition-related dilution, particularly in MHP , is likely to impact by about 50 basis points depending on the timing of closure and when the integration starts.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf"
+   },
+   {
+    "topic": "Operating Margin Target",
+    "target": "Long-term aspirational operating margin band remains 26% to 28%.",
+    "transcript": "Oct 2026",
+    "page": 15,
+    "quote": "Overall, our long-term aspiration remains unchanged, continues to be 26% to 28%.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf"
+   },
+   {
+    "topic": "HyperVault Commercialization",
+    "target": "Revenues from data center capacity expansion to start kicking in within 18 to 24 months.",
+    "transcript": "Oct 2026",
+    "page": 22,
+    "quote": "And it will take about 18 to 24 months before the revenues start kicking in.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf"
+   },
+   {
+    "topic": "Q3 Seasonality",
+    "target": "Furloughs in Q3 FY27 expected to track historical seasonality without material variance.",
+    "transcript": "Oct 2026",
+    "page": 17,
+    "quote": "And in Q3, so far from what we are seeing, the furlough will be very similar to the previous years. We don't see any major change.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "Annualized AI services revenue has expanded rapidly to over $3.1 billion, accounting for more than 10% of total revenue.",
+    "transcript": "Oct 2026",
+    "page": 4,
+    "quote": "Annualized AI revenue reached $3.1 billion and crossed 10% of our overall revenue.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf"
+   },
+   {
+    "point": "Order book momentum remains solid with Q2 TCV reaching $9.6 billion, excluding significant deals like Porsche and Best Buy.",
+    "transcript": "Oct 2026",
+    "page": 3,
+    "quote": "Third, our order book remained healthy. TCV for the quarter was US$9.6 billion. This excludes the Porsche and Best Buy deals.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf"
+   },
+   {
+    "point": "Cash generation remains exceptionally strong, with operating cash conversion exceeding 100% of net profits.",
+    "transcript": "Oct 2026",
+    "page": 6,
+    "quote": "Our cash conversion remains strong at 102.2% of net income and funds invested at the end of the period stood at $5.98 billion.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf"
+   }
+  ],
+  "bear": [
+   {
+    "point": "Near-term operating margins are pressured by increased subcontracting costs, bench creation, and upcoming M&A dilution.",
+    "transcript": "Oct 2026",
+    "page": 5,
+    "quote": "As we build future capacity and navigate demand transitions, we have invested in a higher bench and increased hiring of subcontractors to meet near-term skills and delivery requirements.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf"
+   },
+   {
+    "point": "Discretionary IT spending remains constrained by persistent macroeconomic scrutiny and lack of immediate ROI.",
+    "transcript": "Oct 2026",
+    "page": 4,
+    "quote": "The demand environment has not materially changed since last quarter, and discretionary programs without near-term value remain under scrutiny.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf"
+   },
+   {
+    "point": "Consumer-facing verticals face sustained weakness from inflation, cost pressures, and client insourcing.",
+    "transcript": "Oct 2026",
+    "page": 11,
+    "quote": "Consumer Business declined by 0.7% sequentially and 1% year-on-year. Retail and consumer products remain sensitive to inﬂation, energy costs, and selective consumer spending.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf"
+   }
+  ],
+  "dropped_unverified": 0,
+  "models_tried": [
+   "gemini-flash-latest",
+   "gemini-3-flash-preview"
+  ]
+ }
+}

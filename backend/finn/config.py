@@ -7,6 +7,8 @@ ROOT_DIR = Path(__file__).resolve().parents[2]
 load_dotenv(ROOT_DIR / ".env")
 
 CACHE_DIR = Path(os.getenv("FINN_CACHE_DIR", ROOT_DIR / ".cache"))
+# Saved AI results, committed to the repo so restarts and redeploys reuse them
+SNAPSHOT_DIR = Path(os.getenv("FINN_SNAPSHOT_DIR", ROOT_DIR / "snapshots"))
 FRONTEND_DIST = ROOT_DIR / "frontend" / "dist"
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")

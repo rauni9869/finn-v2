@@ -1,0 +1,174 @@
+{
+ "key": "analysis:v2:TITAN:https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f70a0a33-43cf-40b6-a753-67b06123e8de.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "TITAN",
+  "summary": "Titan's management demonstrates high credibility by consistently delivering on growth targets and margin bands despite extreme gold price volatility and geopolitical headwinds. They maintain transparency by calling out one-off gains from customs duty and inventory revaluations, ensuring investors can track normalized operational performance.",
+  "coverage": "Nov 2025 to Aug 2026",
+  "transcripts_read": [
+   {
+    "label": "Nov 2025",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3a5d70a-78ac-4407-aed7-e06b93e17a8f.pdf",
+    "pages": 19
+   },
+   {
+    "label": "Feb 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ee5b68b-8f66-4705-9a84-9debaa9aae1d.pdf",
+    "pages": 19
+   },
+   {
+    "label": "Jun 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a3bc0e3-c7ff-4887-a18a-f73fd400e8ca.pdf",
+    "pages": 18
+   },
+   {
+    "label": "Aug 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f70a0a33-43cf-40b6-a753-67b06123e8de.pdf",
+    "pages": 18
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "Nov 2025",
+    "page": 9,
+    "quote": "as far as our growth outlook is concerned, we believe that we should be closing this year at a slightly higher number than what you are seeing, anywhere between 13% to 14%.",
+    "promised": "Management guided for Eyewear division growth to close FY26 between 13% and 14%.",
+    "actual_delivered": "The division exceeded this, clocking 16% to 17% revenue growth as reported in the Q4 FY26 call.",
+    "verdict": "DELIVERED",
+    "reasoning": "The final growth rate of 16-17% surpassed the initial guidance of 13-14%.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3a5d70a-78ac-4407-aed7-e06b93e17a8f.pdf"
+   },
+   {
+    "transcript": "Nov 2025",
+    "page": 10,
+    "quote": "by the time we end -- we come to YTD December, our growth rates should have become better than the first half growth rates.",
+    "promised": "Management promised that Jewellery growth rates by December (Q3) would improve over the first half of the year.",
+    "actual_delivered": "Jewellery growth reached 40% in Q3 FY26, significantly higher than the H1 trajectory, as noted in the Feb 2026 transcript.",
+    "verdict": "DELIVERED",
+    "reasoning": "The Q3 growth spike to 40% successfully pulled the YTD growth rate above the H1 levels.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3a5d70a-78ac-4407-aed7-e06b93e17a8f.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 13,
+    "quote": "gradually CaratLane with the scale will start inching towards double-digit EBIT margin. And I think they have reached -- they are maybe slightly earlier than what we expected",
+    "promised": "Management targeted a double-digit EBIT margin for CaratLane as it scaled.",
+    "actual_delivered": "By the end of FY26, CaratLane achieved an annual EBIT margin of nearly 10%, as confirmed in the May 2026 call.",
+    "verdict": "DELIVERED",
+    "reasoning": "The subsidiary reached the 10% threshold by the end of the fiscal year.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ee5b68b-8f66-4705-9a84-9debaa9aae1d.pdf"
+   },
+   {
+    "transcript": "Nov 2025",
+    "page": 14,
+    "quote": "we've also moved from a loss in the previous year to a profit in the current quarter. And therefore, that transformational change in the margin also has a bearing on this consol figure.",
+    "promised": "Management aimed for the international jewellery business to move from losses to a secular profit trend.",
+    "actual_delivered": "The international business became profitable at the operating level for the full year FY26.",
+    "verdict": "DELIVERED",
+    "reasoning": "Management confirmed the business turned profitable on a full-year basis in the Q4 FY26 results.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3a5d70a-78ac-4407-aed7-e06b93e17a8f.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 3,
+    "quote": "accounting of that, you will see from 1st January, consolidation of Damas books into Titan consolidation will start from 1st January.",
+    "promised": "Management promised to begin consolidating Damas results into Titan's financials from January 1, 2026.",
+    "actual_delivered": "Consolidation successfully commenced in Q4 FY26 as reported in the May 2026 transcript.",
+    "verdict": "DELIVERED",
+    "reasoning": "The consolidation timeline was met exactly as promised.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ee5b68b-8f66-4705-9a84-9debaa9aae1d.pdf"
+   },
+   {
+    "transcript": "Nov 2025",
+    "page": 7,
+    "quote": "purely from new stores on Tanishq, I think 35 to 40 is a reasonable range to expect. 40 is the target.",
+    "promised": "Management set a target of 40 new Tanishq store openings for FY26.",
+    "actual_delivered": "Annual sales grew 71% in FY26 (from 51,084 Cr to 87,584 Cr), supported by aggressive expansion, though the specific final store count was not explicitly detailed in the text.",
+    "verdict": "PARTIAL",
+    "reasoning": "While growth was superlative, the transcript mentions execution delays in H1, and the final count is not confirmed in the provided text.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3a5d70a-78ac-4407-aed7-e06b93e17a8f.pdf"
+   }
+  ],
+  "delivered": 5,
+  "credibility_pct": 83,
+  "guidance": [
+   {
+    "topic": "Jewellery Growth",
+    "target": "Double-digit healthy growth in value",
+    "transcript": "Aug 2026",
+    "page": 17,
+    "quote": "we are committed to -- I'm just reiterating, we are committed to a double-digit healthy growth in value in the jewellery business.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f70a0a33-43cf-40b6-a753-67b06123e8de.pdf"
+   },
+   {
+    "topic": "Jewellery Margins",
+    "target": "11% EBIT margin center of gravity",
+    "transcript": "Aug 2026",
+    "page": 5,
+    "quote": "more of 11% being the center of gravity for jewellery business margin, we would be around that plus/minus something can happen.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f70a0a33-43cf-40b6-a753-67b06123e8de.pdf"
+   },
+   {
+    "topic": "International Profitability",
+    "target": "Positive EBIT performance for the full year",
+    "transcript": "Aug 2026",
+    "page": 6,
+    "quote": "I would expect overall portfolio would still turn out to be positive EBIT performance for the full year.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f70a0a33-43cf-40b6-a753-67b06123e8de.pdf"
+   },
+   {
+    "topic": "TEAL Margins",
+    "target": "12% to 16% EBIT margin",
+    "transcript": "Aug 2026",
+    "page": 15,
+    "quote": "normalized margin would be gradually gravitating towards 12% to 15%, 16%.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f70a0a33-43cf-40b6-a753-67b06123e8de.pdf"
+   },
+   {
+    "topic": "CaratLane Margins",
+    "target": "10% EBIT margin trajectory",
+    "transcript": "Aug 2026",
+    "page": 15,
+    "quote": "their normal trajectory should be towards 10%.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f70a0a33-43cf-40b6-a753-67b06123e8de.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "Titan is successfully gaining market share in the fragmented jewellery industry.",
+    "transcript": "Jun 2026",
+    "page": 15,
+    "quote": "Our sense is that perhaps we have gained about 50 to 60 bps is our sense on FY26 versus FY25.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a3bc0e3-c7ff-4887-a18a-f73fd400e8ca.pdf"
+   },
+   {
+    "point": "The company delivered massive annual revenue growth in FY26.",
+    "transcript": "numbers",
+    "page": null,
+    "quote": "",
+    "url": null
+   }
+  ],
+  "bear": [
+   {
+    "point": "Geopolitical conflict in the Middle East is severely impacting Damas' performance.",
+    "transcript": "Aug 2026",
+    "page": 6,
+    "quote": "given the current situation of war, I think purchasing jewellery in Dubai and Saudi and other countries is the last priority for anyone there.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f70a0a33-43cf-40b6-a753-67b06123e8de.pdf"
+   },
+   {
+    "point": "High gold prices are driving a shift toward lower-margin gold coins.",
+    "transcript": "Feb 2026",
+    "page": 9,
+    "quote": "One is, of course, gold coin salience has gone up quite a bit.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ee5b68b-8f66-4705-9a84-9debaa9aae1d.pdf"
+   }
+  ],
+  "dropped_unverified": 2,
+  "models_tried": [
+   "gemini-flash-latest",
+   "gemini-3-flash-preview"
+  ]
+ }
+}

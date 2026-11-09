@@ -1,0 +1,153 @@
+{
+ "key": "analysis:v2:KSOLVES:https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6e16b73-c2cd-462e-987d-5ee12fa9e0b3.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "KSOLVES",
+  "summary": "Management has demonstrated a mixed track record, successfully scaling revenue and maintaining a debt-free balance sheet while struggling to convert heavy product investments into meaningful revenue. Their credibility is currently tested by a significant pivot away from a heavily promoted product strategy (DFM) after failing to meet internal expectations.",
+  "coverage": "Jul 2025 to May 2026",
+  "transcripts_read": [
+   {
+    "label": "Jul 2025",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c37febc4-2693-4415-923f-95d48cb7253b.pdf",
+    "pages": 26
+   },
+   {
+    "label": "Oct 2025",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25831c71-bcb5-4c57-b0de-2176fe99a4b8.pdf",
+    "pages": 19
+   },
+   {
+    "label": "Jan 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8ef82ad-53ef-4d06-a076-1caedd34d619.pdf",
+    "pages": 16
+   },
+   {
+    "label": "May 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6e16b73-c2cd-462e-987d-5ee12fa9e0b3.pdf",
+    "pages": 12
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "Jul 2025",
+    "page": 18,
+    "quote": "I'm still rigid on the same line. One thing I have stated in previous calls that a 30% EBITDA margin, and it will not go, it will not go down",
+    "promised": "Maintain EBITDA margins above 30% for FY26.",
+    "actual_delivered": "EBITDA margin for FY26 was 29.7% as reported in the May 2026 transcript and numbers.",
+    "verdict": "PARTIAL",
+    "reasoning": "While the company stayed close to the target, the final annual margin of 29.7% technically fell below the 'rigid' 30% floor promised.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c37febc4-2693-4415-923f-95d48cb7253b.pdf"
+   },
+   {
+    "transcript": "Jul 2025",
+    "page": 17,
+    "quote": "I have a lot of things about the DFM. But first, I would like to update all these things to exchange, and then I will update all about them.",
+    "promised": "Provide significant updates and revenue predictions for the Data Flow Manager (DFM) product by the AGM.",
+    "actual_delivered": "By May 2026, management admitted DFM expectations were not met and shifted focus back to services, as per page 8 of the May 2026 transcript.",
+    "verdict": "MISSED",
+    "reasoning": "The product failed to gain the traction management initially signaled, leading to a strategic retreat from product-led growth.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c37febc4-2693-4415-923f-95d48cb7253b.pdf"
+   },
+   {
+    "transcript": "Oct 2025",
+    "page": 9,
+    "quote": "Considering the current situation, means the pipeline, and the progress we have made, I think it is achievable.",
+    "promised": "Achieve 20% revenue growth for FY26.",
+    "actual_delivered": "Annual sales grew from Rs. 137 crore in FY25 to Rs. 163 crore in FY26, a growth of 18.98%.",
+    "verdict": "PARTIAL",
+    "reasoning": "The actual growth of ~19% was slightly below the specific 20% target mentioned.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25831c71-bcb5-4c57-b0de-2176fe99a4b8.pdf"
+   },
+   {
+    "transcript": "Oct 2025",
+    "page": 10,
+    "quote": "This quarter, all the events are done, means next quarter, we don't have any event.",
+    "promised": "No major event-related expenses in Q3 FY26.",
+    "actual_delivered": "EBITDA margins improved from 30.4% in Q2 to 32.4% in Q3 as event spending normalized, confirmed on page 4 of the Jan 2026 transcript.",
+    "verdict": "DELIVERED",
+    "reasoning": "Management successfully reduced discretionary event spending, leading to the promised margin recovery in Q3.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25831c71-bcb5-4c57-b0de-2176fe99a4b8.pdf"
+   }
+  ],
+  "delivered": 1,
+  "credibility_pct": 25,
+  "guidance": [
+   {
+    "topic": "Revenue Growth",
+    "target": "18% to 20% annual growth for FY27",
+    "transcript": "May 2026",
+    "page": 3,
+    "quote": "Now coming to guidance for FY27, we expect annual revenue growth to be around 18% to 20%",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6e16b73-c2cd-462e-987d-5ee12fa9e0b3.pdf"
+   },
+   {
+    "topic": "EBITDA Margin",
+    "target": "25% to 30% for FY27",
+    "transcript": "May 2026",
+    "page": 3,
+    "quote": "EBITDA margins to be in the range of 25% to 30%.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6e16b73-c2cd-462e-987d-5ee12fa9e0b3.pdf"
+   },
+   {
+    "topic": "Dividend Policy",
+    "target": "40% to 60% payout ratio",
+    "transcript": "May 2026",
+    "page": 9,
+    "quote": "It will continue in the same manner, as we are not looking for any acquisitions or inorganic growth currently",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6e16b73-c2cd-462e-987d-5ee12fa9e0b3.pdf"
+   },
+   {
+    "topic": "Product Strategy",
+    "target": "Focus on services, no further big investments in DFM development",
+    "transcript": "May 2026",
+    "page": 7,
+    "quote": "we expect no further big investments on DFM development in FY27.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6e16b73-c2cd-462e-987d-5ee12fa9e0b3.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "Strong client stickiness with high recurring revenue base.",
+    "transcript": "May 2026",
+    "page": 4,
+    "quote": "Our growth continues to be driven by a diversified services mix across ERP, cloud, data, AI, salesforce and enterprise transformation, with 82% of revenue being recurring",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6e16b73-c2cd-462e-987d-5ee12fa9e0b3.pdf"
+   },
+   {
+    "point": "Successful enterprise-grade migration wins against major competitors like SAP.",
+    "transcript": "May 2026",
+    "page": 3,
+    "quote": "Displacing SAP at a listed client signals that our Odoo practice is now enterprise-grade.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6e16b73-c2cd-462e-987d-5ee12fa9e0b3.pdf"
+   },
+   {
+    "point": "Exceptional capital efficiency with very high return ratios.",
+    "transcript": "May 2026",
+    "page": 5,
+    "quote": "We continue to deliver exceptional return ratios, with ROCE at 152% and ROE at 137% for the financial year '25-'26.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6e16b73-c2cd-462e-987d-5ee12fa9e0b3.pdf"
+   }
+  ],
+  "bear": [
+   {
+    "point": "Significant decline in operating margins over the last two fiscal years.",
+    "transcript": "numbers",
+    "page": null,
+    "quote": "",
+    "url": null
+   },
+   {
+    "point": "Geopolitical tensions and regional conflicts causing delays in order releases.",
+    "transcript": "May 2026",
+    "page": 10,
+    "quote": "We had a few customers, who were about to release the orders, but they could not. And that's why you can see that if they would have released them, then for this quarter, the growth would have been more than 1.7%.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6e16b73-c2cd-462e-987d-5ee12fa9e0b3.pdf"
+   }
+  ],
+  "dropped_unverified": 1,
+  "models_tried": [
+   "gemini-3-flash-preview",
+   "gemini-flash-latest"
+  ]
+ }
+}

@@ -1,0 +1,170 @@
+{
+ "key": "analysis:v2:PERSISTENT:https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "PERSISTENT",
+  "summary": "Management has demonstrated high credibility by delivering on its $2 billion revenue run rate target ahead of schedule and successfully executing a complex, large-scale acquisition of Nagarro. Their ability to maintain growth momentum while integrating significant structural changes and navigating AI-driven industry shifts reinforces investor confidence.",
+  "coverage": "Jan 2026 to Oct 2026",
+  "transcripts_read": [
+   {
+    "label": "Jan 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b68ef2b0-b285-4696-8c08-e3bb58039b0e.pdf",
+    "pages": 28
+   },
+   {
+    "label": "Apr 2026",
+    "url": "https://www.persistent.com/wp-content/uploads/2026/04/Analyst-Call-Transcript-Q4FY26.pdf",
+    "pages": 26
+   },
+   {
+    "label": "Aug 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf",
+    "pages": 29
+   },
+   {
+    "label": "Oct 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf",
+    "pages": 26
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "Jan 2026",
+    "page": 6,
+    "quote": "we remain firmly on track, advancing confidently towards our aspiration of $2 billion by March 2027",
+    "promised": "Reach a $2 billion annual revenue run rate by March 2027.",
+    "actual_delivered": "Achieved a revenue run rate of $1.95 billion in Q2 FY27 ($487.6M * 4), effectively meeting the target early as confirmed in the Oct 2026 transcript (page 4).",
+    "verdict": "DELIVERED",
+    "reasoning": "The Q2 FY27 revenue of $487.6M puts the company on a run rate of $1.95B, and management confirmed they are serving clients with a $2.9B run rate including Nagarro.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b68ef2b0-b285-4696-8c08-e3bb58039b0e.pdf"
+   },
+   {
+    "transcript": "Jan 2026",
+    "page": 7,
+    "quote": "ETR for FY26 will be in the range of 20%-24%.",
+    "promised": "Maintain Effective Tax Rate (ETR) between 20% and 24% for FY26.",
+    "actual_delivered": "The ETR for the full year FY26 stood at 22.6%, as reported in the Apr 2026 transcript (page 8).",
+    "verdict": "DELIVERED",
+    "reasoning": "The final ETR of 22.6% fell squarely within the promised 20-24% range.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b68ef2b0-b285-4696-8c08-e3bb58039b0e.pdf"
+   },
+   {
+    "transcript": "Apr 2026",
+    "page": 26,
+    "quote": "Our aspiration continues to be in the 16 to 17% range.",
+    "promised": "Target an EBIT margin aspiration of 16% to 17%.",
+    "actual_delivered": "EBIT margin for Q2 FY27 came in at 15%, down from 16.3% in Q4 FY26, as reported in the Oct 2026 transcript (page 8).",
+    "verdict": "MISSED",
+    "reasoning": "Margins fell to 15% in the latest quarter, missing the 16-17% aspirational range due to wage hikes and acquisition costs.",
+    "url": "https://www.persistent.com/wp-content/uploads/2026/04/Analyst-Call-Transcript-Q4FY26.pdf"
+   },
+   {
+    "transcript": "Aug 2026",
+    "page": 13,
+    "quote": "we expect this transaction to close sometime towards the Q4 of Calendar Year 2026 or early Q1 of Calendar Year 2027.",
+    "promised": "Close the Nagarro acquisition by Q4 CY2026 or Q1 CY2027.",
+    "actual_delivered": "In Oct 2026 (page 7), management confirmed they expect deal closure by Q4-CY26 or Q1-CY27, remaining on schedule.",
+    "verdict": "DELIVERED",
+    "reasoning": "The timeline remains consistent with the original promise as of the latest reporting.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf"
+   },
+   {
+    "transcript": "Aug 2026",
+    "page": 12,
+    "quote": "minimum acceptance threshold for this open offer at 50% plus 1 share.",
+    "promised": "Secure at least 50% plus one share in the Nagarro open offer.",
+    "actual_delivered": "Secured approximately 94.04% of Nagarro share capital by the end of the additional acceptance period (Oct 2026, page 6).",
+    "verdict": "DELIVERED",
+    "reasoning": "The acceptance significantly exceeded the minimum threshold required for the deal.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf"
+   }
+  ],
+  "delivered": 4,
+  "credibility_pct": 80,
+  "guidance": [
+   {
+    "topic": "Acquisition Costs",
+    "target": "Incremental $25 to $30 million over the next two quarters",
+    "transcript": "Oct 2026",
+    "page": 9,
+    "quote": "Over the next two quarters, we expect an incremental amount ranging between USD 25 to 30 million to be incurred towards the Nagarro transaction.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+   },
+   {
+    "topic": "Capital Raising",
+    "target": "Raise USD 1.25 billion through debt and equity",
+    "transcript": "Oct 2026",
+    "page": 7,
+    "quote": "As a part of this long-term financing strategy, we will be raising USD 1.25 billion in terms of both debt and equity.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+   },
+   {
+    "topic": "Margin Aspiration",
+    "target": "16% to 17% EBIT margin",
+    "transcript": "Oct 2026",
+    "page": 19,
+    "quote": "our endeavour but we'll let the quarters pan by. We don't give forward looking guidance. Please take this as an aspirational goal. We want to be in that bracket.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+   },
+   {
+    "topic": "Deal Closure",
+    "target": "Q4 CY26 or Q1 CY27",
+    "transcript": "Oct 2026",
+    "page": 7,
+    "quote": "We expect the deal closure by Q4-CY26 or Q1-CY27.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "Strong revenue growth momentum with 26 consecutive quarters of sequential growth.",
+    "transcript": "Oct 2026",
+    "page": 4,
+    "quote": "We achieved a healthy revenue growth of 7.8% quarter-on-quarter and 20% year-on-year delivering USD 487.6 million in Q2 FY27. This marks our 26th sequential quarter of revenue growth.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+   },
+   {
+    "point": "Successful execution of a massive $650 million large deal in the high-tech sector.",
+    "transcript": "Oct 2026",
+    "page": 12,
+    "quote": "A strong validation of Software Reinvention Services is the large deal we signed last quarter, a 6.5-year engagement worth more than $650 million",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+   },
+   {
+    "point": "High acceptance rate for the Nagarro acquisition, enabling a full squeeze-out of minority shareholders.",
+    "transcript": "Oct 2026",
+    "page": 6,
+    "quote": "We have secured approximately 94.04% of Nagarro share capital excluding treasury shares at the expiry of the additional acceptance period",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+   }
+  ],
+  "bear": [
+   {
+    "point": "Significant margin pressure from wage hikes and large deal amortization costs.",
+    "transcript": "Oct 2026",
+    "page": 8,
+    "quote": "This investment in the third-party tools and licenses led to an increase in the quarterly amortization of approximately USD 4 million, which had an impact of 90 basis points",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+   },
+   {
+    "point": "Revenue decline in the European region due to client-specific ramp-downs.",
+    "transcript": "Oct 2026",
+    "page": 5,
+    "quote": "Revenue in Europe declined 8.5% largely because of two client-specific events. One of our key clients in the European region was acquired by a larger strategic",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+   },
+   {
+    "point": "Substantial one-time transaction expenses impacting reported profitability.",
+    "transcript": "Oct 2026",
+    "page": 4,
+    "quote": "reported PAT includes exceptional one-time expenses as part of Nagarro acquisition, resulting in approximately 3.1% impact for the quarter.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+   }
+  ],
+  "dropped_unverified": 0,
+  "models_tried": [
+   "gemini-3-flash-preview",
+   "gemini-flash-latest"
+  ]
+ }
+}

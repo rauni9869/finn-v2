@@ -1,0 +1,154 @@
+{
+ "key": "analysis:v2:TMPV:https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f83a2dd-6bd9-4455-9fc6-4659b5ded6f8.pdf",
+ "saved_at": "2026-11-09T09:17:49+00:00",
+ "value": {
+  "ticker": "TMPV",
+  "summary": "Management's credibility is under pressure due to a significant cyber incident and geopolitical headwinds that forced a sharp downward revision of JLR's guidance. While the domestic India business has delivered on market share gains and volume growth, the JLR segment's volatility and rising debt levels remain key concerns for investors.",
+  "coverage": "Nov 2025 to Aug 2026",
+  "transcripts_read": [
+   {
+    "label": "Nov 2025",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6684a03-5a4d-4c7a-8da0-d5b2c52ec7d1.pdf",
+    "pages": 16
+   },
+   {
+    "label": "Feb 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7907e958-7953-4b49-b831-aab03d6e2746.pdf",
+    "pages": 15
+   },
+   {
+    "label": "Jun 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4d386d7-de53-4409-8e90-187e08cb4a91.pdf",
+    "pages": 14
+   },
+   {
+    "label": "Aug 2026",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f83a2dd-6bd9-4455-9fc6-4659b5ded6f8.pdf",
+    "pages": 14
+   }
+  ],
+  "promises": [
+   {
+    "transcript": "Nov 2025",
+    "page": 5,
+    "quote": "For the full year, we expect EBIT to be in the range of 0% to 2% positive",
+    "promised": "FY26 JLR EBIT margin between 0% and 2%.",
+    "actual_delivered": "JLR ended FY26 with an EBIT margin of 0.7% as reported in the May 2026 transcript (page 3).",
+    "verdict": "DELIVERED",
+    "reasoning": "The final margin of 0.7% fell within the promised 0% to 2% range.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6684a03-5a4d-4c7a-8da0-d5b2c52ec7d1.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 7,
+    "quote": "We expect to end the year somewhere around Rs. 4,200 Cr to Rs. 4,300 Cr for the full year.",
+    "promised": "FY26 India PV Capex between Rs. 4,200 Cr and Rs. 4,300 Cr.",
+    "actual_delivered": "Capex for the year stood at about Rs. 4,300 Cr as confirmed in the May 2026 transcript (page 6).",
+    "verdict": "DELIVERED",
+    "reasoning": "The final figure matched the upper end of the management's guidance.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7907e958-7953-4b49-b831-aab03d6e2746.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 12,
+    "quote": "we expect that for FY26, therefore, the industry would grow by about 8% to 9%, rough estimate",
+    "promised": "Indian PV industry growth of 8-9% for FY26.",
+    "actual_delivered": "The PV industry touched a new high of 4.7 million units, which was 8% year-on-year growth (May 2026, page 6).",
+    "verdict": "DELIVERED",
+    "reasoning": "The industry growth landed exactly at the bottom of the 8-9% estimated range.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7907e958-7953-4b49-b831-aab03d6e2746.pdf"
+   },
+   {
+    "transcript": "Feb 2026",
+    "page": 12,
+    "quote": "Whereas for us, we should be somewhere in mid-teens. So, it would be a double-digit industry-leading growth for us.",
+    "promised": "TMPV (India) volume growth in the mid-teens for FY26.",
+    "actual_delivered": "TMPV closed the year at 6.42 lakh units, delivering over 15% growth year-on-year (May 2026, page 6).",
+    "verdict": "DELIVERED",
+    "reasoning": "15% growth qualifies as mid-teens and met the management's target.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7907e958-7953-4b49-b831-aab03d6e2746.pdf"
+   }
+  ],
+  "delivered": 4,
+  "credibility_pct": 100,
+  "guidance": [
+   {
+    "topic": "JLR Revenue Growth",
+    "target": "10% revenue growth per annum",
+    "transcript": "Aug 2026",
+    "page": 4,
+    "quote": "So we are setting a goal of 10% revenue growth per annum and focusing on the US market",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f83a2dd-6bd9-4455-9fc6-4659b5ded6f8.pdf"
+   },
+   {
+    "topic": "Cost Savings",
+    "target": "GBP 1.7 billion of savings over two years",
+    "transcript": "Aug 2026",
+    "page": 4,
+    "quote": "On costs, our focus is the ex-works cost of our cars, warranty, and our fixed cost base. And our intent is to save $1.7 billion",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f83a2dd-6bd9-4455-9fc6-4659b5ded6f8.pdf"
+   },
+   {
+    "topic": "JLR EV Volume",
+    "target": "12,000 cars in FY27",
+    "transcript": "Aug 2026",
+    "page": 14,
+    "quote": "I think we are tentatively penciling about 12,000 cars this year on the EV space.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f83a2dd-6bd9-4455-9fc6-4659b5ded6f8.pdf"
+   },
+   {
+    "topic": "India PV Growth",
+    "target": "Higher double-digit growth in FY27",
+    "transcript": "Aug 2026",
+    "page": 8,
+    "quote": "I would definitely be targeting higher double-digit growths in FY 27.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f83a2dd-6bd9-4455-9fc6-4659b5ded6f8.pdf"
+   },
+   {
+    "topic": "India PV Production",
+    "target": "70,000 units per month",
+    "transcript": "Aug 2026",
+    "page": 8,
+    "quote": "So hopefully, from this month, we will be seeing 65,000 plus production, more closer to 70,000 is what we are targeting",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f83a2dd-6bd9-4455-9fc6-4659b5ded6f8.pdf"
+   }
+  ],
+  "bull": [
+   {
+    "point": "Strong market share gains in the domestic Indian PV market, reaching a firm number two position.",
+    "transcript": "Aug 2026",
+    "page": 6,
+    "quote": "we further strengthened our position as the number two ranked player in the industry, improving our market share by 200 bps YoY to 14.3%.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f83a2dd-6bd9-4455-9fc6-4659b5ded6f8.pdf"
+   },
+   {
+    "point": "Rapid acceleration in EV adoption with penetration reaching nearly a quarter of domestic sales.",
+    "transcript": "Aug 2026",
+    "page": 6,
+    "quote": "Now, roughly 20% of our sales came from EVs in quarter one. Actually, in July, it went up to 24%.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f83a2dd-6bd9-4455-9fc6-4659b5ded6f8.pdf"
+   },
+   {
+    "point": "Resilient brand power for JLR's core models, with Range Rover and Defender leading their segments in value retention.",
+    "transcript": "Aug 2026",
+    "page": 4,
+    "quote": "And Range Rover and Defender are number one in their segments in the States, with Range Rover and Range Rover Sport number one in UK.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f83a2dd-6bd9-4455-9fc6-4659b5ded6f8.pdf"
+   }
+  ],
+  "bear": [
+   {
+    "point": "Structural challenges in the China market, including luxury taxes and retailer stress, continue to weigh on JLR.",
+    "transcript": "Aug 2026",
+    "page": 10,
+    "quote": "China is very unlikely to get any easier for us. It is most probably going to get a little bit worse before it stabilizes.",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f83a2dd-6bd9-4455-9fc6-4659b5ded6f8.pdf"
+   }
+  ],
+  "dropped_unverified": 4,
+  "models_tried": [
+   "gemini-3-flash-preview",
+   "gemini-flash-latest"
+  ]
+ }
+}
