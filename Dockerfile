@@ -1,5 +1,4 @@
-# One container for the whole app: build the frontend, then serve it from FastAPI.
-# Used by Hugging Face Spaces (Docker SDK), which expects the app on port 7860.
+# One container for the whole app: build the frontend, then serve it from FastAPI on port 7860.
 
 FROM node:22-slim AS frontend
 WORKDIR /build
@@ -9,7 +8,7 @@ COPY frontend/ ./
 RUN npm run build
 
 FROM python:3.12-slim
-# Spaces run the container as user 1000, so it needs its own writable home for the cache
+# Run as a regular user, with a writable home for the cache
 RUN useradd -m -u 1000 finn
 WORKDIR /app
 COPY backend/requirements.txt backend/requirements.txt

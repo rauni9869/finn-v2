@@ -16,13 +16,13 @@ SPACING_SECONDS = 20       # gap between companies, to stay inside the free per-
 REFRESH_SECONDS = 6 * 3600  # check again for new transcripts
 BACKOFF_SECONDS = 30 * 60   # wait after the AI service refuses, e.g. when the daily limit is used up
 
-_status: Dict[str, Any] = {"running": False, "done": [], "skipped": [], "failed": [], "total": 0, "current": None}
+_status: Dict[str, Any] = {"running": False, "done": [], "skipped": [], "waiting": [], "failed": [], "total": 0, "current": None}
 _lock = threading.Lock()
 
 
 def status() -> Dict[str, Any]:
     with _lock:
-        return {**_status, "done": list(_status["done"]), "skipped": list(_status["skipped"]), "failed": list(_status["failed"])}
+        return {**_status, **{k: list(_status[k]) for k in ("done", "skipped", "waiting", "failed")}}
 
 
 def _tickers() -> List[str]:
@@ -57,14 +57,30 @@ def _run_pass() -> bool:
         logger.warning(f"People briefs skipped: {e}")
     tickers = _tickers()
     with _lock:
-        _status.update(running=True, done=[], skipped=[], failed=[], total=len(tickers), current=None)
+        _status.update(running=True, done=[], skipped=[], failed=[], waiting=[], total=len(tickers), current=None)
+    # Once the AI quota is refused, keep going through the list without calling the AI:
+    # saved companies still count as done, and the rest wait for the next pass
+    quota_out = False
     try:
         for ticker in tickers:
             with _lock:
                 _status["current"] = ticker
-            if analysis.is_ready(ticker):
+            try:
+                if analysis.is_ready(ticker):
+                    with _lock:
+                        _status["done"].append(ticker)
+                    continue
+                if not analysis.has_transcripts(ticker):
+                    with _lock:
+                        _status["skipped"].append(ticker)
+                    continue
+            except screener.CompanyNotFound:
                 with _lock:
-                    _status["done"].append(ticker)
+                    _status["skipped"].append(ticker)
+                continue
+            if quota_out:
+                with _lock:
+                    _status["waiting"].append(ticker)
                 continue
             started = time.time()
             try:
@@ -74,20 +90,20 @@ def _run_pass() -> bool:
                 logger.info(f"Pre-ran analysis for {ticker} in {time.time() - started:.0f}s")
             except analysis.AnalysisUnavailable as e:
                 message = str(e)
-                with _lock:
-                    (_status["failed"] if "busy" in message or "limit" in message else _status["skipped"]).append(ticker)
                 if "busy" in message or "limit" in message:
-                    logger.warning(f"Pre-run paused at {ticker}: {message}")
-                    return False
-            except screener.CompanyNotFound:
-                with _lock:
-                    _status["skipped"].append(ticker)
+                    logger.warning(f"AI quota refused at {ticker}; the rest wait for the next pass: {message}")
+                    quota_out = True
+                    with _lock:
+                        _status["waiting"].append(ticker)
+                else:
+                    with _lock:
+                        _status["skipped"].append(ticker)
             except Exception as e:
                 logger.warning(f"Pre-run failed for {ticker}: {e}")
                 with _lock:
                     _status["failed"].append(ticker)
             time.sleep(SPACING_SECONDS)
-        return True
+        return not quota_out
     finally:
         with _lock:
             _status.update(running=False, current=None)

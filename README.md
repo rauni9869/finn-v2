@@ -1,92 +1,166 @@
+# FINN
+
+**FINN is a phone-friendly assistant for people who invest in Indian stocks.** It watches a portfolio for you and tells you what changed, and when you want to dig into a company, it reads the company's own documents and shows you whether management has done what it said it would.
+
+Built for the ENAM Holdings AI Engineer Build Challenge. Everything runs on live data, with no made-up samples.
+
+**Try it:** https://finn-v2.onrender.com
+
+> It runs on free hosting, so the very first visit after a quiet spell can take up to a minute to wake up.
+
 ---
-title: FINN
-emoji: 📈
-colorFrom: yellow
-colorTo: gray
-sdk: docker
-app_port: 7860
-pinned: false
-short_description: Push digest and AI research for Indian equities
+
+## The problem it solves
+
+An investor is flooded with information: price moves, stock-exchange filings, results, management changes. Most of it doesn't matter. FINN's job is to **surface the few things that do, and hide the rest.**
+
+It works in two ways:
+
+| Mode | What it means | Where in the app |
+|---|---|---|
+| **Push** | FINN tells you what changed, without being asked | **Today** page |
+| **Pull** | You ask FINN to research a company | **Research** page |
+
 ---
 
-# FINN v2
+## A quick tour
 
-A mobile-first investing agent for Indian equities, built for the ENAM Holdings AI Engineer Build Challenge. Everything runs on live data: there are no hand-written samples.
+### Today: what changed
+- **Filings, sorted by importance.** Every announcement your 18 companies filed with the stock exchange, for the last 24 hours, 48 hours or 7 days. Important ones, such as results, acquisitions or a new CEO, come first. Routine paperwork is folded away.
+- **Results at a glance.** When a company reports quarterly results, FINN shows Revenue, EBITDA, PBT and PAT, compared with the previous quarter and the same quarter last year.
+- **Who is this?** When a company appoints or loses a senior person, FINN looks them up on the web and shows a short background, with links to where it found it.
+- **Alerts you control.** Get alerted when a stock trades far more than usual or moves sharply in a day, or when a company files something you care about. You set the thresholds with sliders.
+- **Brief me.** Plays a short spoken summary, handy on a commute.
 
-- **Push** tells you what changed across an 18-stock portfolio: exchange filings sorted by importance, routine paperwork collapsed, and alerts on thresholds you set.
-- **Pull** researches any NSE company on demand, including an AI check of what management promised against what it delivered, grounded only in the company's own transcripts and reported numbers.
+### Research: dig into any company
+Search any company listed on the NSE, by ticker or by name, and get:
+- **The basics:** what the company does, its key numbers, eight years of revenue and profit as charts, and the last eight quarters.
+- **Promises vs delivery.** FINN reads the company's last four earnings calls and finds specific promises management made, such as "we'll break even next quarter". It then checks what actually happened and marks each one *delivered*, *partial*, *delayed*, *missed* or *diverged*, with the exact quote and a link to the transcript page. If enough promises can be checked, it gives an overall **delivery score**.
+- **Guidance and a bull vs bear case,** each backed by a quote or the reported numbers.
+- **Balance sheet and cash quality:** how much the company borrows, and whether its profits turn into real cash.
+- **Links to the original documents:** annual reports, call transcripts and presentations.
 
-## Data sources
+### Portfolio
+Each holding's latest closing price, daily move, trading volume against its usual level, and a 30-day trend line. Tap any company to research it.
 
-| Data | Source | Notes |
-|---|---|---|
-| End-of-day price and volume | Yahoo Finance (`yfinance`) | Last completed session. A stock shows "n/a" if Yahoo has no data. |
-| Exchange filings | BSE announcements, as listed on screener.in | The latest 5 per company, with screener.in's one-line summaries. NSE and BSE block automated access to their own APIs, so FINN does not scrape them directly. |
-| Financials, ratios, document links | screener.in | Standardised from company filings. Covers any listed company. |
-| Earnings call transcripts | BSE PDFs linked from screener.in | Read page by page for the AI analysis. |
-| People background | Groq (`gpt-oss`) with web search | Only for management-change filings, with links to the pages it read. |
+---
 
-## How the AI is used
+## How it works
 
-| Job | Model | Why |
-|---|---|---|
-| Filing categories | Keyword rules first; `gemini-flash-lite` only for filings the rules miss, in one batched call | Most filings are labelled by the filer, so rules are free and instant |
-| Promises vs delivery, guidance, bull vs bear | `gemini-flash` with fallbacks | Needs reasoning over long transcripts |
-| Who joined or left | Groq `gpt-oss-120b` with web search, falling back to `gpt-oss-20b`, then Gemini | Needs current facts with sources, and keeps Gemini's small daily limit for the transcript analysis |
-
-Safeguards:
-- **Only primary sources:** the research model sees only the company's transcripts and reported numbers, and is told not to use outside knowledge.
-- **Quote check:** every promise, guidance item and bull or bear point must quote the transcript word for word. FINN checks each quote against the cited page and removes any it can't find.
-- **Caching:** results are cached, and the transcript analysis refreshes only when a new transcript appears.
-- **Busy models:** a busy model is retried once, then the next model is tried.
-
-## Run it
-
-You need Python 3.10+ and Node.js 18+. Keep the project outside folders synced to iCloud, such as Desktop or Documents, because offloaded files make it very slow.
-
-```bash
-python3.12 run.py
+```
+  Live data                       FINN                          You
+  ─────────                       ────                          ───
+  Stock prices (Yahoo)   ─┐
+  Exchange filings       ─┼──►  Sort, prioritise, alert  ──►  Today page
+  Company financials     ─┤
+  Earnings call PDFs     ─┼──►  AI reads transcripts,    ──►  Research page
+  Web search             ─┘     checks every quote
 ```
 
-Open http://localhost:3000. The first run installs everything. To turn on the AI features, create a `.env` file in this folder with `GEMINI_API_KEY=your_key`, and optionally `GROQ_API_KEY=your_key` for faster people briefs.
+1. **Collect.** FINN fetches end-of-day prices from Yahoo Finance, and company filings, financials and transcript links from screener.in.
+2. **Filter.** Filings are sorted into categories and ranked by importance, mostly with simple rules. A small AI model handles only the ones the rules can't place.
+3. **Analyse.** For research, an AI model reads the company's transcripts and reported numbers, and nothing else, then lists promises and outcomes.
+4. **Verify.** FINN checks every quote the AI gives against the actual transcript page and throws away any it can't find. This keeps the AI from inventing quotes.
+5. **Remember.** Results are saved, so they appear instantly next time and don't use up the free AI allowance again.
 
-## Deploy (Hugging Face Spaces)
+### Which AI does what
 
-The `Dockerfile` builds the frontend and serves everything from FastAPI on port 7860, which is what Hugging Face Spaces expects. The free tier gives 2 vCPUs and about 16 GB of RAM, and stays awake far longer than Render's free tier, so the background pre-run keeps results ready.
+| Task | Model | Why this one |
+|---|---|---|
+| Sorting filings | Rules first, then Gemini Flash-Lite for the leftovers | Cheapest option; most filings are easy to sort by rules |
+| Promises vs delivery | Gemini 3 Flash, falling back to Gemini Flash | Needs careful reasoning over about 200 pages |
+| Who joined or left | Groq `gpt-oss-120b` with web search, falling back to `gpt-oss-20b` | Needs up-to-date facts with sources, and keeps Gemini's small allowance for the research |
 
-1. Create a Space at https://huggingface.co/new-space, choose **Docker** and **Blank**, and leave it public or private as you prefer.
-2. In the Space's **Settings → Variables and secrets**, add a secret `GEMINI_API_KEY`.
-3. Push this repository to the Space's git remote. Hugging Face builds and starts it.
+### Where the data comes from
 
-`render.yaml` is kept for Render as an alternative.
+| Data | Source |
+|---|---|
+| Daily prices and volume | Yahoo Finance |
+| Exchange filings | BSE announcements, via screener.in (the latest 5 per company) |
+| Financials and document links | screener.in, standardised from company filings |
+| Earnings call transcripts | PDFs linked from screener.in, mostly on BSE |
+| People backgrounds | Web search through Groq |
 
-## Speed
+The NSE and BSE block automated access to their own feeds, so FINN uses screener.in's copy of BSE announcements instead of getting around those blocks.
 
-- **Pre-run:** on startup, and every 6 hours, FINN analyses the 18 holdings and the suggested companies in the background, one every 20 seconds. Those open instantly. `/api/health` shows progress.
-- **Low reasoning:** Gemini is asked for low hidden reasoning, which answers in seconds rather than minutes.
-- **Fallback:** a model that doesn't answer within 90 seconds is retried once, then the next model is tried.
-- **Snapshots:** finished analyses and people briefs are also saved as JSON in `snapshots/`, which is committed to the repo. After a restart or redeploy, FINN loads them instead of asking Gemini again, so only new transcripts and new companies use quota. To add results made on your machine, run `PYTHONPATH=backend .venv/bin/python scripts/export_snapshots.py` and commit `snapshots/`.
+---
 
-## Structure
+## Keeping it fast on free AI plans
+
+The free AI plans are small: Gemini allows **20 requests a day**, and Groq allows **200,000 tokens a day** per model. FINN is designed to fit inside them:
+
+- **Done in advance.** When FINN starts, and every 6 hours, it prepares the people briefs and analyses all 18 holdings, plus 4 suggested companies (Swiggy, Dixon, Eternal and BEL), in the background. Opening them is instant.
+- **Saved permanently.** Finished results are stored in the `snapshots/` folder in this repository, so a restart doesn't redo them. A company is re-analysed only when it publishes a new transcript.
+- **Quick answers.** A new analysis takes about 20 seconds. If an AI service is busy, FINN gives up quickly and says so, rather than leaving you waiting.
+
+You can see background progress at `/api/health`, for example https://finn-v2.onrender.com/api/health. There, **done** means ready to open instantly, **skipped** means the company has no usable transcripts, and **waiting** means it's queued until the AI allowance resets.
+
+---
+
+## Run it yourself
+
+You need **Python 3.10+** and **Node.js 18+**.
+
+1. Get two free API keys:
+   - Gemini: https://aistudio.google.com/apikey
+   - Groq: https://console.groq.com
+2. Create a file called `.env` in the project folder:
+   ```
+   GEMINI_API_KEY=your_gemini_key
+   GROQ_API_KEY=your_groq_key
+   ```
+   Without these keys, everything except the AI features still works.
+3. Start it:
+   ```bash
+   python3.12 run.py
+   ```
+4. Open http://localhost:3000. The first run installs everything automatically. Press `Ctrl+C` to stop.
+
+**Tips**
+- On a Mac, keep the project outside iCloud-synced folders such as Desktop or Documents. iCloud can offload files, which makes the app very slow.
+- If a deployed copy uses the same keys, run the local one without the background work, so they don't share the daily allowance:
+  ```bash
+  FINN_PREWARM=0 python3.12 run.py
+  ```
+- To save AI results made on your machine into `snapshots/`, then commit them:
+  ```bash
+  PYTHONPATH=backend .venv/bin/python scripts/export_snapshots.py
+  ```
+
+## Put it online
+
+The live site runs on **Render's free plan**:
+1. In Render, create a **Blueprint** from this repository. `render.yaml` sets up one web service that builds the website and runs the backend.
+2. Paste your `GEMINI_API_KEY` and `GROQ_API_KEY` when asked.
+3. Render's free plan sleeps after 15 minutes without visitors. To keep it awake, add a free monitor, such as UptimeRobot, that opens `/api/health` every 5 minutes.
+
+A `Dockerfile` is also included, if you'd rather run it as a container. It serves on port 7860.
+
+---
+
+## Project layout
 
 ```
 backend/finn/
-  main.py            API routes; serves the built frontend
-  config.py          Portfolio, model choices, paths
-  cache.py           Disk cache with per-key locking
-  llm.py             Gemini calls, JSON output, retries and fallbacks
-  sources/           screener.in and Yahoo Finance
-  push/              classify.py, digest.py, alerts.py, enrich.py
-  pull/              research.py (figures), analysis.py (AI from transcripts)
+  main.py          The web API; also serves the website and starts the background work
+  config.py        The portfolio, AI model choices and file paths
+  cache.py         Saving results, including the permanent snapshots
+  llm.py           Talking to Gemini and Groq, with retries and fallbacks
+  sources/         Fetching data from screener.in and Yahoo Finance
+  push/            Today page: sorting filings, alerts, results first cut, people briefs
+  pull/            Research page: figures, AI transcript analysis, background preparation
 frontend/src/
-  views/             Today, Research, Portfolio
-  components/        FilingCard, BarChart
-tests/               Smoke tests against live data
+  views/           The Today, Research and Portfolio pages
+  components/      Filing cards and charts
+snapshots/         Saved AI results, reused after restarts
+scripts/           export_snapshots.py
+tests/             Quick check scripts that call the live data sources
 ```
 
-## Known limits
+## Known limitations
 
-- Only the 5 most recent filings per company are available, so a busy filer's older filings can drop out of the 7-day view.
-- Filing summaries are screener.in's, and are labelled as such.
-- AI verdicts can be wrong even when the quote is real. Every item links to its transcript page.
-- The first analysis of a company takes one to two minutes, and the free Gemini tier can be busy.
+- **Filings:** only the 5 most recent per company are available, so a company that files a lot may have older filings missing from the 7-day view.
+- **Summaries:** the one-line filing summaries come from screener.in.
+- **No analysis for three holdings:** ITC and Trent have no transcripts on screener.in, and Federal Bank's transcript links lead to web pages rather than PDFs.
+- **AI can still be wrong:** a verdict can be wrong even when its quote is real. Every item links to the transcript page so you can check it.
+- **Free AI limits:** on a busy day, a first-time analysis of a new company may be refused until the daily allowance resets. FINN says so and tries again later.

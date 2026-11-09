@@ -183,6 +183,10 @@ def _key(ticker: str, links: List[Dict[str, str]]) -> str:
     return f"analysis:v2:{ticker}:{links[0]['url']}"
 
 
+def has_transcripts(query: str) -> bool:
+    return bool(research_report(query)["documents"]["transcripts"])
+
+
 def is_ready(query: str) -> bool:
     """True when this company's latest analysis is already cached."""
     rep = research_report(query)
