@@ -40,7 +40,7 @@ def _prepare_people_briefs() -> None:
         if filing["category"] != "management_change" or filing.get("people"):
             continue
         try:
-            enrich.management_brief(filing["company"], filing["title"], filing["summary"])
+            enrich.management_brief(filing["company"], filing["title"], filing["summary"], quick=True)
             logger.info(f"Prepared people brief for {filing['ticker']}: {filing['title']}")
         except Exception as e:
             logger.warning(f"People brief failed for {filing['ticker']}: {e}")
@@ -49,6 +49,8 @@ def _prepare_people_briefs() -> None:
 
 def _run_pass() -> bool:
     """One pass over every company. Returns False if the AI service refused, so the caller backs off."""
+    with _lock:
+        _status.update(running=True, current="people briefs")
     try:
         _prepare_people_briefs()
     except Exception as e:

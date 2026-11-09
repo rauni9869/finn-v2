@@ -116,7 +116,8 @@ def _try_models(models: List[str], prompt: str, config: dict, parse: Callable, q
                 break
             except Exception as e:
                 logger.warning(f"{model} call failed: {e}")
-                _last_error_was_quota = "RESOURCE_EXHAUSTED" in str(e) or "429" in str(e)
+                # Any quota refusal counts, even if a later model fails differently
+                _last_error_was_quota = _last_error_was_quota or "RESOURCE_EXHAUSTED" in str(e) or "429" in str(e)
                 busy = "503" in str(e) or "UNAVAILABLE" in str(e)
                 if not busy or attempt == 1 or quick:
                     break
